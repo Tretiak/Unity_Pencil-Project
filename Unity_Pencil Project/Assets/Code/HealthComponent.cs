@@ -8,6 +8,7 @@ namespace Code
     {
 
         public event Action OnHealthChanged;
+        public event Action OnDie;
         
         private float _health;
         private float _healthMax = 100;
@@ -24,22 +25,28 @@ namespace Code
 
         public void Heal(float healAmount)
         {
+            
             _health += healAmount;
             InvokeHealthChangedEvent();
-            Debug.Log(_health +"after Heal");
+            
+        }
+
+        private void CheckHealth()
+        {
+            if (_health <= 0) OnDie?.Invoke();
         }
 
         public void ApplyDamage(float damageAmount)
         {
+            CheckHealth();
             _health -= damageAmount;
             InvokeHealthChangedEvent();
-            Debug.Log(_health + "after Damage");
+            
         }
 
         public float GetHealthNormalized()
         {
             float healthNormalized = _health / _healthMax;
-            Debug.Log(healthNormalized + "Health normalized");
             return healthNormalized;
         }
     }

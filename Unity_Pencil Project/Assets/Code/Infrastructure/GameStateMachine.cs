@@ -1,5 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using Code.Infrastructure.Factory;
+using Code.Infrastructure.Services;
+using Code.Infrastructure.Services.PersistentProgress;
+using Code.Infrastructure.States;
 using Code.UI;
 
 namespace Code.Infrastructure
@@ -9,14 +13,18 @@ namespace Code.Infrastructure
         private readonly Dictionary<Type,IExitableState> _states;
         private IExitableState _activeState;
 
-        public GameStateMachine(SceneLoader sceneLoader, LoadingCurtain loadingCurtain)
+        public GameStateMachine(SceneLoader sceneLoader, LoadingCurtain loadingCurtain, AllServices services)
         {
             _states = new Dictionary<Type, IExitableState>()
             {
 
-                [typeof(BootstrapState)] = new BootstrapState(this, sceneLoader),
-                [typeof(LoadLevelState)] = new LoadLevelState(this, sceneLoader, loadingCurtain),
+                [typeof(BootstrapState)] = new BootstrapState(this, sceneLoader, services),
+                [typeof(LoadLevelState)] = new LoadLevelState(this, sceneLoader, loadingCurtain, services.Single<IGameFactory>(), services.Single<IPersistentProgressService>()),
+                [typeof(LoadProgressState)]  = new LoadProgressState(this,
+                    services.Single<IPersistentProgressService>(), 
+                    services.Single<ISaveLoadService>()),
                 [typeof(GameLoopState)] = new GameLoopState(this),
+                
             };
 
         }

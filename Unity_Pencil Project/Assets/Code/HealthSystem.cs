@@ -18,21 +18,18 @@ namespace Code
         {
             _healthComponent.Init();
             _healthComponent.OnHealthChanged += HealthComponent_OnHealthChanged;
+            _healthComponent.OnDie += OnDie;
         }
 
-        private void Update()
+        private void OnDie()
         {
-            if (Input.GetKeyDown(KeyCode.H))
-            {
-                _healthComponent.Heal(10f);
-                
-            }
-            if (Input.GetKeyDown(KeyCode.K))
-            {
-                _healthComponent.ApplyDamage(10f);
-               
-            }
-            
+           Destroy(gameObject);
+        }
+        
+
+        public HealthComponent GetHealth()
+        {
+            return _healthComponent;
         }
 
         private void HealthComponent_OnHealthChanged()
@@ -43,6 +40,7 @@ namespace Code
         private void OnDestroy()
         {
             _healthComponent.OnHealthChanged -= HealthComponent_OnHealthChanged;
+            _healthComponent.OnDie -= OnDie;
         }
     }
 }

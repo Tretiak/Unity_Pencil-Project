@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - LoadingCurtain
+  - InitialPoint
+  - AttackZone
+  - FxTemporaire
+  - environment
+  - Enemy
+  - EnemySpawner
   layers:
   - Default
   - TransparentFX
@@ -11,12 +18,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - AgroZone
+  - Player
+  - AttackZone
+  - Hittable
+  - Projectile
+  - Pickup
   - 
   - 
   - 

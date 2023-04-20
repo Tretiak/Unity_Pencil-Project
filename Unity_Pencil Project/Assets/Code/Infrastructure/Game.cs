@@ -1,4 +1,5 @@
-﻿using Code.UI;
+﻿using Code.Infrastructure.Services;
+using Code.UI;
 
 namespace Code.Infrastructure
 {
@@ -8,7 +9,7 @@ namespace Code.Infrastructure
 
         public Game(ICoroutineRunner coroutineRunner, LoadingCurtain loadingCurtain)
         {
-            _stateMachine = new GameStateMachine(new SceneLoader(coroutineRunner), loadingCurtain);
+            _stateMachine = new GameStateMachine(new SceneLoader(coroutineRunner), loadingCurtain, AllServices.Container);
         }
     }
 }

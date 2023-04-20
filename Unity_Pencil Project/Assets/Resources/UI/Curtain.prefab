@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 8493594776518678522}
   - component: {fileID: 8493594776518678407}
   - component: {fileID: 3552420954286445161}
+  - component: {fileID: 3253807157660723778}
   m_Layer: 0
   m_Name: Curtain
   m_TagString: LoadingCurtain
@@ -190,7 +191,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7409db1a02e4bbabecc708b3d224e6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curtainAlpha: 0.03
   Curtain: {fileID: 8493594776518678407}
+--- !u!95 &3253807157660723778
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8493594776518678524}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cbc500af40c96d14689f334d0b14cd8e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8493594777054932861
 GameObject:
   m_ObjectHideFlags: 0
