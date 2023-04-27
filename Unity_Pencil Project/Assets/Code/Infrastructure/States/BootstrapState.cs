@@ -2,6 +2,7 @@
 using Code.Infrastructure.Factory;
 using Code.Infrastructure.Services;
 using Code.Infrastructure.Services.PersistentProgress;
+using Code.Infrastructure.Services.Randomizer;
 using Code.StaticData;
 
 namespace Code.Infrastructure.States
@@ -33,9 +34,15 @@ namespace Code.Infrastructure.States
         private void RegisterServices()
         {
             RegisterStaticData();
+            _services.RegisterSingle<IRandomService>(new RandomService());
+            _services.RegisterSingle<IPersistentProgressService>(new PersistentProgressService());
             _services.RegisterSingle<IAssets>(new Assets());
             _services.RegisterSingle<IPersistentProgressService>(new PersistentProgressService());
-            _services.RegisterSingle<IGameFactory>(new GameFactory(_services.Single<IAssets>(), _services.Single<IStaticDataService>()));
+            _services.RegisterSingle<IGameFactory>(new GameFactory(
+                _services.Single<IAssets>(),
+                _services.Single<IStaticDataService>(), 
+                _services.Single<IRandomService>(),
+                _services.Single<IPersistentProgressService>()));
             _services.RegisterSingle<ISaveLoadService>(new SaveLoadService(_services.Single<IPersistentProgressService>(), _services.Single<IGameFactory>()));
         }
 

@@ -19,6 +19,10 @@ namespace Code.StaticData.ScriptableObjects.EnemyStaticData
         [Range(0, 20f)]
         public float MoveSpeed = 5;
 
+        public int MinLoot;
+        public int MaxLoot;
+        
+
 
     }
 }

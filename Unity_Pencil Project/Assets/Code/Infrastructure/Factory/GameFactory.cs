@@ -3,6 +3,7 @@ using Code.Character;
 using Code.Enemy;
 using Code.Infrastructure.AssetManagement;
 using Code.Infrastructure.Services.PersistentProgress;
+using Code.Infrastructure.States;
 using Code.StaticData;
 using Code.StaticData.ScriptableObjects.EnemyStaticData;
 using UnityEngine;
@@ -16,15 +17,19 @@ namespace Code.Infrastructure.Factory
         private readonly IAssets _assets;
         private GameObject _createCharacter;
         private readonly IStaticDataService _staticData;
+        private readonly IRandomService _randomService;
+        private readonly IPersistentProgressService _persistentProgressService;
 
         public List<ISavedProgressReader> ProgressReaders { get; } = new List<ISavedProgressReader>();
         public List<ISavedProgress> ProgressWriters { get; } = new List<ISavedProgress>();
         private GameObject CharacterGameObject { get; set; }
 
-        public GameFactory(IAssets assets, IStaticDataService staticData)
+        public GameFactory(IAssets assets, IStaticDataService staticData, IRandomService randomService, IPersistentProgressService persistentProgressService)
         {
             _assets = assets;
             _staticData = staticData;
+            _randomService = randomService;
+            _persistentProgressService = persistentProgressService;
         }
 
         public GameObject CreateHud()
@@ -54,9 +59,13 @@ namespace Code.Infrastructure.Factory
 
             enemy.GetComponent<ActorUI>().Construct(health);
             enemy.GetComponent<EnemyMoveToPlayer>().Construct(characterTransform);
-
             enemy.GetComponent<NavMeshAgent>().speed = enemyData.MoveSpeed;
             EnemyAttack enemyAttack = enemy.GetComponent<EnemyAttack>();
+
+            LootSpawner lootSpawner = enemy.GetComponentInChildren<LootSpawner>();
+            lootSpawner.SetLoot(enemyData.MinLoot,enemyData.MaxLoot);
+            lootSpawner.Construct(this, _randomService);
+
             enemyAttack.Construct(characterTransform);
             enemyAttack.Damage = enemyData.Damage;
             enemyAttack.AttackCooldown = enemyData.AttackCooldown;
@@ -65,6 +74,14 @@ namespace Code.Infrastructure.Factory
             enemy.GetComponent<EnemyRotateToCharacter>()?.Construct(characterTransform);
             return enemy;
         }
+
+        public LootPiece CreateLoot()
+        {
+            LootPiece lootPiece = InstantiateRegistered(AssetPath.Loot).GetComponent<LootPiece>();
+            lootPiece.Construct(_persistentProgressService.Progress.WorldData);
+            return lootPiece;
+        }
+            
 
         public void Cleanup()
         {

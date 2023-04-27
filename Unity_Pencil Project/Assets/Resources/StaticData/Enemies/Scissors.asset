@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fde1876649954e6783bae69ae38e5be2, type: 3}
-  m_Name: Pen
+  m_Name: Scissors
   m_EditorClassIdentifier: 
-  EnemyTypeId: 0
+  EnemyTypeId: 10
   Hp: 20
   Damage: 10
   AttackCooldown: 2
   CleavageRadius: 0.5
-  Prefab: {fileID: 7130291153854006963, guid: edee6bf7efd32614188efa346d83a693, type: 3}
+  Prefab: {fileID: 6384496020473931918, guid: 62431298e06d914469ab0cbb75e074b8, type: 3}
   MoveSpeed: 5
-  MinLoot: 1
-  MaxLoot: 3
+  MinLoot: 2
+  MaxLoot: 2
