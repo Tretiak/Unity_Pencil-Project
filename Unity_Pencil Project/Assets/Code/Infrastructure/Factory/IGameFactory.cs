@@ -18,5 +18,6 @@ namespace Code.Infrastructure.Factory
         
         void Cleanup();
         GameObject CreateEnemy(EnemyTypeId enemyTypeId, Transform parent);
+        LootPiece CreateLoot();
     }
 }
