@@ -2,6 +2,7 @@
 using Code.Enemy;
 using Code.Infrastructure.Services;
 using Code.Infrastructure.Services.PersistentProgress;
+using Code.Logic.EnemySpawners;
 using UnityEngine;
 
 namespace Code.Infrastructure.Factory
@@ -11,13 +12,12 @@ namespace Code.Infrastructure.Factory
         GameObject CreateCharacter(GameObject at);
 
         GameObject CreateHud();
-
-        void Register(ISavedProgressReader progressReader);
         List<ISavedProgressReader> ProgressReaders { get; }
         List<ISavedProgress> ProgressWriters { get; }
         
         void Cleanup();
         GameObject CreateEnemy(EnemyTypeId enemyTypeId, Transform parent);
         LootPiece CreateLoot();
+        void CreateSpawner(Vector3 at, string spawnerId, EnemyTypeId enemyTypeId);
     }
 }

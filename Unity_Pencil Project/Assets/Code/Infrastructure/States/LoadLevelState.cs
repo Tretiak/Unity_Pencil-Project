@@ -5,9 +5,11 @@ using Code.Infrastructure.AssetManagement;
 using Code.Infrastructure.Factory;
 using Code.Infrastructure.Services.PersistentProgress;
 using Code.Logic;
+using Code.StaticData;
 using Code.UI;
 using KinematicCharacterController.Examples;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using CharacterController = KinematicCharacterController.Examples.CharacterController;
 
 
@@ -18,16 +20,18 @@ namespace Code.Infrastructure.States
         private readonly GameStateMachine _stateMachine;
         private readonly SceneLoader _sceneLoader;
         private readonly LoadingCurtain _loadingCurtain;
-        private IGameFactory _gameFactory;
+        private readonly IGameFactory _gameFactory;
         private readonly IPersistentProgressService _progressService;
+        private readonly IStaticDataService _staticData;
 
-        public LoadLevelState(GameStateMachine stateMachine, SceneLoader sceneLoader, LoadingCurtain  loadingCurtain, IGameFactory gameFactory, IPersistentProgressService progressService)
+        public LoadLevelState(GameStateMachine stateMachine, SceneLoader sceneLoader, LoadingCurtain  loadingCurtain, IGameFactory gameFactory, IPersistentProgressService progressService, IStaticDataService staticData)
         {
             _stateMachine = stateMachine;
             _sceneLoader = sceneLoader;
             _loadingCurtain = loadingCurtain;
             _gameFactory = gameFactory;
             _progressService = progressService;
+            _staticData = staticData;
         }
 
         public void Enter(string sceneName)
@@ -73,11 +77,14 @@ namespace Code.Infrastructure.States
 
         private void InitSpawners()
         {
-            foreach (GameObject spawnerGameObject in GameObject.FindGameObjectsWithTag(TagsExtension.EnemySpawnerTag))
-            { 
-                EnemySpawner spawner = spawnerGameObject.GetComponent<EnemySpawner>();
-                _gameFactory.Register(spawner);
+            string sceneKey = SceneManager.GetActiveScene().name;
+            LevelStaticData levelData = _staticData.ForLevel(sceneKey);
+            
+            foreach (EnemySpawnerData spawnerData in levelData.EnemySpawners)
+            {
+                _gameFactory.CreateSpawner(spawnerData.Position,spawnerData.Id,spawnerData.EnemyTypeId);
             }
+            
         }
 
         private void InitHud(GameObject character)

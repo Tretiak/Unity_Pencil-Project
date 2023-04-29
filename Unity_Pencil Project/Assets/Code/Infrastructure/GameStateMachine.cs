@@ -4,6 +4,7 @@ using Code.Infrastructure.Factory;
 using Code.Infrastructure.Services;
 using Code.Infrastructure.Services.PersistentProgress;
 using Code.Infrastructure.States;
+using Code.StaticData;
 using Code.UI;
 
 namespace Code.Infrastructure
@@ -19,7 +20,7 @@ namespace Code.Infrastructure
             {
 
                 [typeof(BootstrapState)] = new BootstrapState(this, sceneLoader, services),
-                [typeof(LoadLevelState)] = new LoadLevelState(this, sceneLoader, loadingCurtain, services.Single<IGameFactory>(), services.Single<IPersistentProgressService>()),
+                [typeof(LoadLevelState)] = new LoadLevelState(this, sceneLoader, loadingCurtain, services.Single<IGameFactory>(), services.Single<IPersistentProgressService>(), services.Single<IStaticDataService>()),
                 [typeof(LoadProgressState)]  = new LoadProgressState(this,
                     services.Single<IPersistentProgressService>(), 
                     services.Single<ISaveLoadService>()),

@@ -4,6 +4,7 @@ using Code.Enemy;
 using Code.Infrastructure.AssetManagement;
 using Code.Infrastructure.Services.PersistentProgress;
 using Code.Infrastructure.States;
+using Code.Logic.EnemySpawners;
 using Code.StaticData;
 using Code.StaticData.ScriptableObjects.EnemyStaticData;
 using Code.UI;
@@ -84,7 +85,15 @@ namespace Code.Infrastructure.Factory
             lootPiece.Construct(_persistentProgressService.Progress.WorldData);
             return lootPiece;
         }
-            
+
+        public void CreateSpawner(Vector3 at, string spawnerId, EnemyTypeId enemyTypeId)
+        {
+            SpawnPoint spawner = InstantiateRegistered(AssetPath.Spawner, at).GetComponent<SpawnPoint>();
+            spawner.Construct(this);
+            spawner.Id = spawnerId;
+            spawner.EnemyTypeId = enemyTypeId;
+        }
+
 
         public void Cleanup()
         {
