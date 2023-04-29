@@ -4,6 +4,7 @@ using Code.Enemy;
 using Code.Infrastructure.AssetManagement;
 using Code.Infrastructure.Factory;
 using Code.Infrastructure.Services.PersistentProgress;
+using Code.Logic;
 using Code.UI;
 using KinematicCharacterController.Examples;
 using UnityEngine;
@@ -56,10 +57,18 @@ namespace Code.Infrastructure.States
         private void InitGameWorld()
         {
             InitSpawners();
-            
+            InitLootPieces();
             GameObject character = _gameFactory.CreateCharacter(GameObject.FindWithTag(TagsExtension.InitialPointTag));
             InitCharacterControl(character);
             InitHud(character);
+        }
+        private void InitLootPieces()
+        {
+            foreach (string key in _progressService.Progress.WorldData.LootData.LootPiecesOnScene.Dictionary.Keys)
+            {
+                LootPiece lootPiece = _gameFactory.CreateLoot();
+                lootPiece.GetComponent<UniqueId>().Id = key;
+            }
         }
 
         private void InitSpawners()

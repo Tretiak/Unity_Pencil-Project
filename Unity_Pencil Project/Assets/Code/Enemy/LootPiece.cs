@@ -1,23 +1,33 @@
 using System;
 using System.Collections;
 using Code.Data;
+using Code.Infrastructure.Services.PersistentProgress;
+using Code.Logic;
 using TMPro;
 using UnityEngine;
 
 namespace Code.Enemy
 {
-    public class LootPiece : MonoBehaviour
+    public class LootPiece : MonoBehaviour, ISavedProgress
     {
         public GameObject LootVisual;
         public GameObject PickupFXPrefab;
         public TextMeshProUGUI LootText;
         public GameObject PickupPopup;
         
+        private string _id;
         private Loot _loot;
         private bool _picked;
+        private bool _loadedFromProgress;
         private WorldData _worldData;
         private float _waitTimeBeforeDestroy = 1.5f;
 
+
+        private void Start()
+        {
+            if(!_loadedFromProgress)
+                _id = GetComponent<UniqueId>().Id;
+        }
 
         public void Construct(WorldData worldData)
         {
@@ -31,33 +41,66 @@ namespace Code.Enemy
 
         private void OnTriggerEnter(Collider other)
         {
-            Pickup();
+            if (!_picked)
+            {
+                _picked = true;
+                Pickup();
+            }
         }
 
         private void Pickup()
         {
-            if(_picked)
-                return;
-
-            _picked = true;
             
-            //UpdateWorldData();
+            UpdateWorldData();
             HideVisual();
             PlayPickupFX();
             ShowText();
             Destroy(gameObject,_waitTimeBeforeDestroy);
         }
 
+        public void LoadProgress(PlayerProgress playerProgress)
+        {
+            _id = GetComponent<UniqueId>().Id;
+            LootPieceData data = playerProgress.WorldData.LootData.LootPiecesOnScene.Dictionary[_id];
+            Initialize(data.Loot);
+            transform.position = data.Position.AsUnityVector3();
+
+            _loadedFromProgress = true;
+        }
+
+        public void UpdateProgress(PlayerProgress playerProgress)
+        {
+            if (_picked)
+                return;
+
+            LootPieceDataDictionary lootPiecesOnScene = playerProgress.WorldData.LootData.LootPiecesOnScene;
+
+            if (!lootPiecesOnScene.Dictionary.ContainsKey(_id))
+                lootPiecesOnScene.Dictionary
+                    .Add(_id, new LootPieceData(transform.position.AsVector3Data(), _loot));
+        }
+        private void UpdateCollectedLootAmount() =>
+            _worldData.LootData.Collect(_loot);
+
+        private void RemoveLootPieceFromSavedPieces()
+        {
+            LootPieceDataDictionary savedLootPieces = _worldData.LootData.LootPiecesOnScene;
+
+            if (savedLootPieces.Dictionary.ContainsKey(_id)) 
+                savedLootPieces.Dictionary.Remove(_id);
+        }
+
         private void UpdateWorldData()
         {
-            _worldData.LootData.Collect(_loot);
+            UpdateCollectedLootAmount();
+            RemoveLootPieceFromSavedPieces();
         }
 
         private void HideVisual()
         {
             LootVisual.SetActive(false);
         }
-        
+
 
         private void ShowText()
         {
