@@ -6,6 +6,7 @@ using Code.Infrastructure.Services.PersistentProgress;
 using Code.Infrastructure.States;
 using Code.StaticData;
 using Code.StaticData.ScriptableObjects.EnemyStaticData;
+using Code.UI;
 using UnityEngine;
 using UnityEngine.AI;
 using Object = UnityEngine.Object;
@@ -14,14 +15,15 @@ namespace Code.Infrastructure.Factory
 {
     public class GameFactory : IGameFactory
     {
+        public List<ISavedProgressReader> ProgressReaders { get; } = new List<ISavedProgressReader>();
+        public List<ISavedProgress> ProgressWriters { get; } = new List<ISavedProgress>();
+        
         private readonly IAssets _assets;
         private GameObject _createCharacter;
         private readonly IStaticDataService _staticData;
         private readonly IRandomService _randomService;
         private readonly IPersistentProgressService _persistentProgressService;
 
-        public List<ISavedProgressReader> ProgressReaders { get; } = new List<ISavedProgressReader>();
-        public List<ISavedProgress> ProgressWriters { get; } = new List<ISavedProgress>();
         private GameObject CharacterGameObject { get; set; }
 
         public GameFactory(IAssets assets, IStaticDataService staticData, IRandomService randomService, IPersistentProgressService persistentProgressService)
@@ -36,6 +38,7 @@ namespace Code.Infrastructure.Factory
         {
             string path = AssetPath.HudPath;
             GameObject hud = InstantiateRegistered(path);
+            hud.GetComponentInChildren<ScoreCounter>().Construct(_persistentProgressService.Progress.WorldData);
             return hud;
         }
 

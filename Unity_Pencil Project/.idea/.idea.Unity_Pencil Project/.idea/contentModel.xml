@@ -36,10 +36,13 @@
           <e p="CharacterAnimator.cs" t="Include" />
           <e p="Data" t="Include">
             <e p="DataExtensions.cs" t="Include" />
+            <e p="DictionaryData_Base.cs" t="Include" />
             <e p="HealthState.cs" t="Include" />
             <e p="KillData.cs" t="Include" />
             <e p="Loot.cs" t="Include" />
             <e p="LootData.cs" t="Include" />
+            <e p="LootPieceData.cs" t="Include" />
+            <e p="LootPieceDataDictionary.cs" t="Include" />
             <e p="PlayerProgress.cs" t="Include" />
             <e p="PositionOnLevel.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
@@ -133,6 +136,7 @@
           </e>
           <e p="UI" t="Include">
             <e p="LoadingCurtain.cs" t="Include" />
+            <e p="ScoreCounter.cs" t="Include" />
           </e>
         </e>
         <e p="JMO Assets" t="Include">

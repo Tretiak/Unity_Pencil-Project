@@ -20,52 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27e607e6-adde-41b6-89b3-299bddaecc96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Pencil Project/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Pencil Project/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PopUp.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PopUp.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PopUpText.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PopUpText.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/Loot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/Loot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/LootData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/LootData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Enemy/LootPiece.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Enemy/LootPiece.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Enemy/LootSpawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Enemy/LootSpawner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/Services/Randomizer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/Services/Randomizer/IRandomService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/Services/Randomizer/IRandomService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/Services/Randomizer/RandomService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/Services/Randomizer/RandomService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/Loot.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/Loot/Loot.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/Loot/Loot.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/Loot/PickUpFX.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/Loot/PickUpFX.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/StaticData/Enemies/Scissors.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/StaticData/Enemies/Scissors.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/DictionaryData_Base.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/DictionaryData_Base.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/LootPieceData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/LootPieceData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/LootPieceDataDictionary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/LootPieceDataDictionary.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/ScoreCounter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/ScoreCounter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Pencil Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Pencil Project/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Pencil Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Pencil Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Data/LootData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Data/LootData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Data/WorldData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Data/WorldData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Infrastructure/AssetManagement/AssetPath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/AssetManagement/AssetPath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Enemy/LootPiece.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Enemy/LootPiece.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Infrastructure/Factory/GameFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/Factory/GameFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Infrastructure/Factory/IGameFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/Factory/IGameFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Infrastructure/States/BootstrapState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/States/BootstrapState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/EnemyStaticData/EnemyStaticData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/EnemyStaticData/EnemyStaticData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Infrastructure/States/LoadLevelState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/States/LoadLevelState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Character/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Character/HUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Enemy/Enemy_Base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/Enemy_Base.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Enemy/Enemy_Pen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/Enemy_Pen.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Enemy/Enemy_Scisorss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/Enemy_Scisorss.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Loot.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Loot.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/StaticData/Enemies/Pen.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/StaticData/Enemies/Pen.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Enemy/Loot/Loot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/Loot/Loot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/SaveTrigger.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/SaveTrigger.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene_01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene_01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +51,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@13.1.8/Runtime/Passes/AdditionalLightsShadowCasterPass.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -86,12 +66,15 @@
         <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/States/IRandomService.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/Services/Randomizer/RandomService.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/Services/Randomizer/IRandomService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Data/WorldData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Data/LootData.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/States/BootstrapState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/Factory/GameFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Enemy/LootSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Data/LootPieceData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Data/LootData.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Enemy/LootPiece.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Data/WorldData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UI/ScoreCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/Factory/GameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/States/LoadLevelState.cs" />
       </list>
     </option>
   </component>
@@ -138,6 +121,7 @@
       <workItem from="1682611493291" duration="1301000" />
       <workItem from="1682617423236" duration="67000" />
       <workItem from="1682617521322" duration="11231000" />
+      <workItem from="1682778726444" duration="5933000" />
     </task>
     <servers />
   </component>
@@ -160,5 +144,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="758" y="221" key="RiderGenerateDialog" timestamp="1682783795901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="758" y="221" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1682783795901" />
   </component>
 </project>
