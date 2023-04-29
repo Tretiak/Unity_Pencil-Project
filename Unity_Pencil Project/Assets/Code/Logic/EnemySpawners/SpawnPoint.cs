@@ -1,34 +1,31 @@
-﻿using System;
-using Code.Data;
+﻿using Code.Data;
+using Code.Enemy;
 using Code.Infrastructure.Factory;
-using Code.Infrastructure.Services;
 using Code.Infrastructure.Services.PersistentProgress;
-using Code.Logic;
 using UnityEngine;
 
-namespace Code.Enemy
+namespace Code.Logic.EnemySpawners
 {
-    public class EnemySpawner: MonoBehaviour, ISavedProgress
+    public class SpawnPoint: MonoBehaviour, ISavedProgress
     {
         public EnemyTypeId EnemyTypeId;
 
+        public string Id { get; set; }
+
         [SerializeField] 
         private bool _defeated;
-        private string _id;
+
         private IGameFactory _factory;
         private EnemyDeath _enemyDeath;
         public bool Defeated => _defeated;
 
-        private void Awake()
+        public void Construct(IGameFactory factory)
         {
-            _id = GetComponent<UniqueId>().Id;
-            _factory = AllServices.Container.Single<IGameFactory>();
-
+            _factory = factory;
         }
-
         public void LoadProgress(PlayerProgress playerProgress)
         {
-            if (playerProgress.KillData.ClearedSpawners.Contains(_id))
+            if (playerProgress.KillData.ClearedSpawners.Contains(Id))
                 _defeated = true;
             else
             {
@@ -57,7 +54,7 @@ namespace Code.Enemy
         {
             if (_defeated)
             {
-                playerProgress.KillData.ClearedSpawners.Add(_id);
+                playerProgress.KillData.ClearedSpawners.Add(Id);
             }
         }
     }

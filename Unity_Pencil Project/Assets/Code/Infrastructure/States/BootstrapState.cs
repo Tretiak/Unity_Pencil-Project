@@ -44,12 +44,13 @@ namespace Code.Infrastructure.States
                 _services.Single<IRandomService>(),
                 _services.Single<IPersistentProgressService>()));
             _services.RegisterSingle<ISaveLoadService>(new SaveLoadService(_services.Single<IPersistentProgressService>(), _services.Single<IGameFactory>()));
+            //_services.RegisterSingle<IStaticDataService>(new StaticDataService());
         }
 
         private void RegisterStaticData()
         {
             IStaticDataService staticData = new StaticDataService();
-            staticData.LoadEnemies();
+            staticData.Load();
             _services.RegisterSingle(staticData);
         }
 
