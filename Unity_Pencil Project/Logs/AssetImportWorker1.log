@@ -15,7 +15,7 @@ X:/GitHub/Unity_Pencil-Project/Unity_Pencil Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64691
+51520
 Successfully changed project path to: X:/GitHub/Unity_Pencil-Project/Unity_Pencil Project
 X:/GitHub/Unity_Pencil-Project/Unity_Pencil Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ X:/GitHub/Unity_Pencil-Project/Unity_Pencil Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 133.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 134.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.6f1 (e49a51cf6290)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,101 +63,101 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015631 seconds.
+Registered in 0.014313 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 140.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 139.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.878 seconds
+- Completed reload, in  0.901 seconds
 Domain Reload Profiling:
-	ReloadAssembly (879ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (902ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (628ms)
-			LoadAssemblies (99ms)
+		EndReloadAssembly (643ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
-				TypeCache.Initialize (136ms)
-					TypeCache.ScanAssembly (134ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (148ms)
+				TypeCache.Initialize (148ms)
+					TypeCache.ScanAssembly (146ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (395ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (397ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (69ms)
-				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (140ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				InitializePlatformSupportModulesInManaged (66ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (139ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006536 seconds.
+Registered in 0.007514 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image X:\GitHub\Unity_Pencil-Project\Unity_Pencil Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image X:\GitHub\Unity_Pencil-Project\Unity_Pencil Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 132.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 139.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.692 seconds
+- Completed reload, in  1.819 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1693ms)
-		BeginReloadAssembly (240ms)
+	ReloadAssembly (1820ms)
+		BeginReloadAssembly (265ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (123ms)
-		EndReloadAssembly (1311ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (1388ms)
+			LoadAssemblies (145ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (324ms)
-				TypeCache.Initialize (310ms)
-					TypeCache.ScanAssembly (305ms)
+			SetupTypeCache (350ms)
+				TypeCache.Initialize (336ms)
+					TypeCache.ScanAssembly (331ms)
 				ResolveRequiredComponents (14ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (717ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (773ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (132ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (332ms)
-				ProcessInitializeOnLoadMethodAttributes (96ms)
+				RefreshPlugins (139ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (354ms)
+				ProcessInitializeOnLoadMethodAttributes (105ms)
 				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5406 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (389.6 KB). Loaded Objects now: 5885.
-Memory consumption went from 0.85 GB to 0.85 GB.
-Total: 4.889100 ms (FindLiveObjects: 0.550900 ms CreateObjectMapping: 0.359000 ms MarkObjects: 3.857600 ms  DeleteObjects: 0.120200 ms)
+Unloading 5437 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (389.6 KB). Loaded Objects now: 5916.
+Memory consumption went from 0.86 GB to 0.86 GB.
+Total: 4.859100 ms (FindLiveObjects: 0.591900 ms CreateObjectMapping: 0.269700 ms MarkObjects: 3.855900 ms  DeleteObjects: 0.140300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,974 +171,196 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 310238.872824 seconds.
-  path: Assets/BigRookGames
-  artifactKey: Guid(bea02fada63c62c428fd3123bd87ed6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BigRookGames using Guid(bea02fada63c62c428fd3123bd87ed6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ceed5a73f235618c08e91f051416d5e') in 0.020663 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006333 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image X:\GitHub\Unity_Pencil-Project\Unity_Pencil Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image X:\GitHub\Unity_Pencil-Project\Unity_Pencil Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.265 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1265ms)
-		BeginReloadAssembly (147ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1007ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
-				TypeCache.Initialize (278ms)
-					TypeCache.ScanAssembly (272ms)
-				ResolveRequiredComponents (16ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (502ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (87ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (380.5 KB). Loaded Objects now: 5901.
-Memory consumption went from 0.83 GB to 0.82 GB.
-Total: 3.784700 ms (FindLiveObjects: 0.477200 ms CreateObjectMapping: 0.131800 ms MarkObjects: 3.080700 ms  DeleteObjects: 0.094000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005908 seconds.
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image X:\GitHub\Unity_Pencil-Project\Unity_Pencil Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image X:\GitHub\Unity_Pencil-Project\Unity_Pencil Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'BigRookGames' already exists (Assets/AssetsStore/BigRookGames/Scripts/BigRookGames.asmdef)
-Assembly with name 'BigRookGames' already exists (Assets/BigRookGames/Scripts/BigRookGames.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/AssetsStore/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/AssetsStore/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.281 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1282ms)
-		BeginReloadAssembly (155ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1006ms)
-			LoadAssemblies (112ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
-				TypeCache.Initialize (274ms)
-					TypeCache.ScanAssembly (268ms)
-				ResolveRequiredComponents (13ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (511ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (267ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (380.5 KB). Loaded Objects now: 5917.
-Memory consumption went from 0.83 GB to 0.82 GB.
-Total: 3.654700 ms (FindLiveObjects: 0.367800 ms CreateObjectMapping: 0.129300 ms MarkObjects: 3.070600 ms  DeleteObjects: 0.086000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006502 seconds.
-Assembly with name 'BigRookGames' already exists (Assets/AssetsStore/BigRookGames/Scripts/BigRookGames.asmdef)
-Assembly with name 'BigRookGames' already exists (Assets/BigRookGames/Scripts/BigRookGames.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/AssetsStore/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/AssetsStore/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Assembly with name 'BigRookGames' already exists (Assets/AssetsStore/BigRookGames/Scripts/BigRookGames.asmdef)
-Assembly with name 'BigRookGames' already exists (Assets/BigRookGames/Scripts/BigRookGames.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/AssetsStore/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/AssetsStore/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image X:\GitHub\Unity_Pencil-Project\Unity_Pencil Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image X:\GitHub\Unity_Pencil-Project\Unity_Pencil Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'BigRookGames' already exists (Assets/AssetsStore/BigRookGames/Scripts/BigRookGames.asmdef)
-Assembly with name 'BigRookGames' already exists (Assets/BigRookGames/Scripts/BigRookGames.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/AssetsStore/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/AssetsStore/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.326 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1326ms)
-		BeginReloadAssembly (162ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1036ms)
-			LoadAssemblies (117ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
-				TypeCache.Initialize (292ms)
-					TypeCache.ScanAssembly (286ms)
-				ResolveRequiredComponents (13ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (514ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (84ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5245 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (380.6 KB). Loaded Objects now: 5927.
-Memory consumption went from 0.82 GB to 0.82 GB.
-Total: 3.620600 ms (FindLiveObjects: 0.421300 ms CreateObjectMapping: 0.125900 ms MarkObjects: 2.986600 ms  DeleteObjects: 0.086000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006682 seconds.
-Assembly with name 'BigRookGames' already exists (Assets/AssetsStore/BigRookGames/Scripts/BigRookGames.asmdef)
-Assembly with name 'BigRookGames' already exists (Assets/BigRookGames/Scripts/BigRookGames.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/AssetsStore/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/AssetsStore/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Assembly with name 'BigRookGames' already exists (Assets/AssetsStore/BigRookGames/Scripts/BigRookGames.asmdef)
-Assembly with name 'BigRookGames' already exists (Assets/BigRookGames/Scripts/BigRookGames.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/AssetsStore/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/AssetsStore/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image X:\GitHub\Unity_Pencil-Project\Unity_Pencil Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image X:\GitHub\Unity_Pencil-Project\Unity_Pencil Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'BigRookGames' already exists (Assets/AssetsStore/BigRookGames/Scripts/BigRookGames.asmdef)
-Assembly with name 'BigRookGames' already exists (Assets/BigRookGames/Scripts/BigRookGames.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/AssetsStore/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/AssetsStore/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <890d6fe26e8c408ea64b353e791fafce>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <ccf9ff037b1542ac969d4d0a5c530152>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <311ac618fd644a8dbeaf7ddb4cf1ef67>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.280 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1281ms)
-		BeginReloadAssembly (151ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1019ms)
-			LoadAssemblies (112ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (286ms)
-				TypeCache.Initialize (273ms)
-					TypeCache.ScanAssembly (267ms)
-				ResolveRequiredComponents (13ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (518ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (271ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5282 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (381.6 KB). Loaded Objects now: 5980.
-Memory consumption went from 0.83 GB to 0.83 GB.
-Total: 3.557600 ms (FindLiveObjects: 0.368200 ms CreateObjectMapping: 0.125400 ms MarkObjects: 2.984600 ms  DeleteObjects: 0.078500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 28082.447667 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/SHOP-YELLOW.png
+  artifactKey: Guid(c4b8ca1f6cef4234181abf670a00d456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/SHOP-YELLOW.png using Guid(c4b8ca1f6cef4234181abf670a00d456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8793d1902458d807fe9a7c109de40efc') in 0.157330 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2757.083239 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Armor_Icon.png
-  artifactKey: Guid(65a9410232dbc154c9cec96a5fbd07b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Armor_Icon.png using Guid(65a9410232dbc154c9cec96a5fbd07b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459f2aa23d63a6bfed02f8acc39f215d') in 0.149124 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/TROPHY-PURPLE.png
+  artifactKey: Guid(60b7e68c2ab9b0349ba17846b3d8f705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/TROPHY-PURPLE.png using Guid(60b7e68c2ab9b0349ba17846b3d8f705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82aea9cc10a0beca95fa08dc319b193d') in 0.024799 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.843292 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Boots_Icon.png
-  artifactKey: Guid(b634c8a51d4a2d440b44719a9c1329ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Boots_Icon.png using Guid(b634c8a51d4a2d440b44719a9c1329ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111d7cab08c46806b6d108284207ae9f') in 0.024448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/PSD/Button-Items.psd
-  artifactKey: Guid(bbd36df1008581848a5a25bf39c8e778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/PSD/Button-Items.psd using Guid(bbd36df1008581848a5a25bf39c8e778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06387d9b50701b09b8dc8deafb6df048') in 0.035498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/CANCEL-PINK.png
-  artifactKey: Guid(e78362a860b7a364f850f1e0bfdff92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/CANCEL-PINK.png using Guid(e78362a860b7a364f850f1e0bfdff92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e606f5f3c7bdee7699424fec8ae0f9b5') in 0.030022 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/SHOP.png
+  artifactKey: Guid(36d164f0220997c4ab150c042085069b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/SHOP.png using Guid(36d164f0220997c4ab150c042085069b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b4f8f0b7482c6c532af0b4211be68e') in 0.023927 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/CANCEL-PURPLE.png
-  artifactKey: Guid(f0929fffa8460de49a9fda3d379001b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/CANCEL-PURPLE.png using Guid(f0929fffa8460de49a9fda3d379001b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863d742ebed9a667b6b66db28f07ac69') in 0.027828 seconds 
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/SETTING-YELLOW.png
+  artifactKey: Guid(2530984098245d84bb54ecd99031968c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/SETTING-YELLOW.png using Guid(2530984098245d84bb54ecd99031968c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c428c80aff577a9190b6327852165d') in 0.025254 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/CANCEL.png
-  artifactKey: Guid(26434401dd9433446b6a5cb8d07dc493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/CANCEL.png using Guid(26434401dd9433446b6a5cb8d07dc493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0261f640d1631031153fa95d47ee54d4') in 0.025898 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/SOUND-BLUE.png
+  artifactKey: Guid(fe4e30a8f9d01c745b328f5fe71aca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/SOUND-BLUE.png using Guid(fe4e30a8f9d01c745b328f5fe71aca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ae570bcd2520019ad235afa55bfbf5') in 0.024009 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/CANCEL-BLUE.png
-  artifactKey: Guid(167e36297de429e4281556a52e28700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/CANCEL-BLUE.png using Guid(167e36297de429e4281556a52e28700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da605570c1b98d1ca7e1950dd7353c5b') in 0.027433 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/SHOP-RED.png
+  artifactKey: Guid(5f94d11b3ec025a4a9bd9cb4c9b16ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/SHOP-RED.png using Guid(5f94d11b3ec025a4a9bd9cb4c9b16ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397b5508a11032d57fe40561421c2a76') in 0.025868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/SHOP-GREEN.png
+  artifactKey: Guid(0514cccbcd617c8409f077f2957cfdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/SHOP-GREEN.png using Guid(0514cccbcd617c8409f077f2957cfdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262f76da8b333e931db2d9ffa57937f9') in 0.025116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/SETTING-PINK.png
+  artifactKey: Guid(c10877f9becdc7e409e2dd5a85a0b658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/SETTING-PINK.png using Guid(c10877f9becdc7e409e2dd5a85a0b658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da456dd369797c52d925082827078f9') in 0.031973 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/ButtonShadow.png
-  artifactKey: Guid(a1bad59df67816b4e87ffbadf3753955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/ButtonShadow.png using Guid(a1bad59df67816b4e87ffbadf3753955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05412fe3cc082b24bf970742d17f803') in 0.027308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.352886 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Character_Box.png
-  artifactKey: Guid(81c655d952ad6ca498cc4b1491740ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Character_Box.png using Guid(81c655d952ad6ca498cc4b1491740ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23488f8f4f7b25b3678cdb92b4af8a9f') in 0.052273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Close_Icon.png
-  artifactKey: Guid(91b7e74335f44c44c8dba8435bf6c3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Close_Icon.png using Guid(91b7e74335f44c44c8dba8435bf6c3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7996c3ee4d94a446b271def61ab86a75') in 0.013971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Crystal_Icon.png
-  artifactKey: Guid(bebdcb1b1d4112d49bb5e505c72918c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Crystal_Icon.png using Guid(bebdcb1b1d4112d49bb5e505c72918c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b4d4ecd93884f97ef7e770cc3e572c') in 0.025793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Close_Icon.png
-  artifactKey: Guid(0b3d25bb30efc5847954849ba0b1453d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Close_Icon.png using Guid(0b3d25bb30efc5847954849ba0b1453d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48137ba4aa7881f57ec0b58b13b01a86') in 0.013031 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Comleted_Icon.png
-  artifactKey: Guid(a3464046b5f29474b891e5a6b0602b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Comleted_Icon.png using Guid(a3464046b5f29474b891e5a6b0602b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd401b5da0267efc9381e45deaa17c37c') in 0.013038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Crystal_Icon.png
-  artifactKey: Guid(ae7e1099aaff73c4b8e6e623e8c96910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Crystal_Icon.png using Guid(ae7e1099aaff73c4b8e6e623e8c96910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48eaa2dc9e2bc8b0b64e6eafc5ce5ea') in 0.018907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Bar/CharacterDemo.png
-  artifactKey: Guid(dbf0b0525645e10428174d35b68acc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Bar/CharacterDemo.png using Guid(dbf0b0525645e10428174d35b68acc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992e75d6ba79135e6d4c0c8f4758c630') in 0.028654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.599788 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Eq_Slot.png
-  artifactKey: Guid(03435f376320d0e418058b601acc79fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Eq_Slot.png using Guid(03435f376320d0e418058b601acc79fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59778e2d4920018849857a6f8f729cd1') in 0.025858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/HELP.png
-  artifactKey: Guid(0611b9480b6c0de4ea8f0f259e353891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/HELP.png using Guid(0611b9480b6c0de4ea8f0f259e353891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff938fa538e759a50ceb4834e711aea') in 0.029323 seconds 
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/RETRY-PINK.png
+  artifactKey: Guid(8bd2d7272088102478ba69a7fc9db87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/RETRY-PINK.png using Guid(8bd2d7272088102478ba69a7fc9db87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38451840cb87b2c237e85704c613beb') in 0.025266 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Helmet_Icon.png
-  artifactKey: Guid(f8fceb41b68ef0a4ea35add24f4635e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Helmet_Icon.png using Guid(f8fceb41b68ef0a4ea35add24f4635e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f022544db634b3f53cd14cb23cd2fb3') in 0.026898 seconds 
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/RETRY-NAVYBLUE.png
+  artifactKey: Guid(bcc132e9ca3b1cb449586273a8feb6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/RETRY-NAVYBLUE.png using Guid(bcc132e9ca3b1cb449586273a8feb6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9875d3dc7bdb4ef34d8ec4884726ccb') in 0.023420 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/HELP-BLUE.png
-  artifactKey: Guid(4182e33e15eca264db68f9c1eacc1640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/HELP-BLUE.png using Guid(4182e33e15eca264db68f9c1eacc1640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7a02b95c1752187462354a7e139e82') in 0.030242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.046087 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/HELP-ORANGE.png
-  artifactKey: Guid(50c8cccdf6e4da8429a1113990c65f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/HELP-ORANGE.png using Guid(50c8cccdf6e4da8429a1113990c65f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf2f3be70a0770d5f02b84d37a3b633') in 0.028153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Items/I-002.png
-  artifactKey: Guid(ad5e536b5a3afa54e9bde403ebb4e82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Items/I-002.png using Guid(ad5e536b5a3afa54e9bde403ebb4e82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda26f8edc31a10a56dadfd4db3caf35') in 0.027043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/HELP-PURPLE.png
-  artifactKey: Guid(2cd4110b70b0c034c8bd7161d20f7523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/HELP-PURPLE.png using Guid(2cd4110b70b0c034c8bd7161d20f7523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2439f866c937fcfc68f32d03a4799b') in 0.031653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Items/I-003.png
-  artifactKey: Guid(27988a24fa3fd9244bf417bbcd7e8a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Items/I-003.png using Guid(27988a24fa3fd9244bf417bbcd7e8a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d44452b0b02f1cb6f6629b1ab29fd64') in 0.029404 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/SETTING-PURPLE.png
+  artifactKey: Guid(f71170f3c46f24a4da518646388cc431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/SETTING-PURPLE.png using Guid(f71170f3c46f24a4da518646388cc431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf40f3ddc156e5392c390d0afb9da49') in 0.028171 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/HELP-PINK.png
-  artifactKey: Guid(1384cb3879965744ba44c0e46cc8af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/HELP-PINK.png using Guid(1384cb3879965744ba44c0e46cc8af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ad50ebfe7cf059b74bf4141d52a74b') in 0.028372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.776010 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Loading Bar/LoadingDemo.png
-  artifactKey: Guid(3337066f7ea9437419b50a86e0fb6ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Loading Bar/LoadingDemo.png using Guid(3337066f7ea9437419b50a86e0fb6ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266601f8d98b161f1a656358b40d5ccb') in 0.069974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/MENU-RED.png
-  artifactKey: Guid(590c625203bdad149ba3094d0fd6c2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/MENU-RED.png using Guid(590c625203bdad149ba3094d0fd6c2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9649c8a14ac9380af545edfaf3caea67') in 0.031197 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Minus_Icon.png
-  artifactKey: Guid(47e51aa03c8cd16448f9cba068b87887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Minus_Icon.png using Guid(47e51aa03c8cd16448f9cba068b87887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474b9f870821668faceaeea18fdc9d11') in 0.023210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/MENU-YELLOW.png
-  artifactKey: Guid(dc7f18fb7c406bd429545780652aa7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/MENU-YELLOW.png using Guid(dc7f18fb7c406bd429545780652aa7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71dd3e7ca06165c2e378b551d5cb6c72') in 0.027546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/MENU-PINK.png
-  artifactKey: Guid(68b7ea4a570339542ab339e2b03e0b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/MENU-PINK.png using Guid(68b7ea4a570339542ab339e2b03e0b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c122389fbdf0bf6398a97e93d71fb265') in 0.029792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/MenuDemo.png
-  artifactKey: Guid(c2aa7972cb52add4ab1b066df73161c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/MenuDemo.png using Guid(c2aa7972cb52add4ab1b066df73161c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a939709c0692f25516718b4f5e8c72') in 0.036674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/MENU-GREEN.png
-  artifactKey: Guid(cac635010d555f44887b99c9a9d11c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/MENU-GREEN.png using Guid(cac635010d555f44887b99c9a9d11c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9011e9fcccd612ef4f60480f67d06b') in 0.030376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/MENU-PURPLE.png
-  artifactKey: Guid(e4edee2ecacf96646b34b7c635dd3de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/MENU-PURPLE.png using Guid(e4edee2ecacf96646b34b7c635dd3de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5a56a7ad4a08ac9d99a29ff79e9e6c') in 0.032455 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/MORE-NAVYBLUE.png
-  artifactKey: Guid(06fdc65c5406e5d4ebdaf835af1beb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/MORE-NAVYBLUE.png using Guid(06fdc65c5406e5d4ebdaf835af1beb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4710e303517fe8774f221c5ecca018ea') in 0.028302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/Menu_Box.png
-  artifactKey: Guid(5b0afe43a1982124fb85c8003a2dea2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/Menu_Box.png using Guid(5b0afe43a1982124fb85c8003a2dea2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e4612f24e7e01a8aa03a5628e775bf') in 0.033848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/MENU-BLUE.png
-  artifactKey: Guid(2df6ff3a11fc94e45977f95e32813f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/MENU-BLUE.png using Guid(2df6ff3a11fc94e45977f95e32813f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71c8c156fb0b53622af164f05047874') in 0.029587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 752.913558 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Violet_Ribbon.png
-  artifactKey: Guid(02e21a7595645644e80f34c809e010e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Violet_Ribbon.png using Guid(02e21a7595645644e80f34c809e010e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a2a471fa6a9ba121ee10bcd34f750f') in 0.028488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 411.935039 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/NEXT-GREEN.png
-  artifactKey: Guid(d922a479b0cef9449b41dfaa276ccd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/NEXT-GREEN.png using Guid(d922a479b0cef9449b41dfaa276ccd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5997c63b84caa52cf1e60286bb10ee4') in 0.026452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/NEXT-RED.png
-  artifactKey: Guid(1a1ce85a8f3592241b1c6338ddbfa4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/NEXT-RED.png using Guid(1a1ce85a8f3592241b1c6338ddbfa4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23022bf18cad9bf3cbdb4887fede5d01') in 0.025497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/NONE-YELLOW.png
-  artifactKey: Guid(f07b18edb32d92e4580f96823ede956c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/NONE-YELLOW.png using Guid(f07b18edb32d92e4580f96823ede956c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f55156404b329036aa31e9f88e4056') in 0.023630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/NONE-RED.png
-  artifactKey: Guid(93e474497d88bee4194189e676931626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/NONE-RED.png using Guid(93e474497d88bee4194189e676931626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725c75a42c925cd0378cf5a6dc88d17e') in 0.028866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/PSD/Panel.psd
-  artifactKey: Guid(f9918f26e5f47934fb55b6bbab09bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/PSD/Panel.psd using Guid(f9918f26e5f47934fb55b6bbab09bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225d6be85d8ef0dbee17fc3d56c78045') in 0.035874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/NEXT-ORANGE.png
-  artifactKey: Guid(0a87d4f81e028be4c839dc5f855a41b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/NEXT-ORANGE.png using Guid(0a87d4f81e028be4c839dc5f855a41b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2cb6bc1d4be702b945f5d03612d85c') in 0.025100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/NEXT-YELLOW.png
-  artifactKey: Guid(9dbd998e122174c42bc15a86e3a47c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/NEXT-YELLOW.png using Guid(9dbd998e122174c42bc15a86e3a47c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b6f1b45d32a06639bf4173a33c45ad') in 0.027222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/NONE-NAVYBLUE.png
-  artifactKey: Guid(104390a66531ac540a932f242044d2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/NONE-NAVYBLUE.png using Guid(104390a66531ac540a932f242044d2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057b23e005c2d3fa9d0385d010191d3b') in 0.026486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/NONE-BLUE.png
-  artifactKey: Guid(5232c258f94b2094898ac769f191b4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/NONE-BLUE.png using Guid(5232c258f94b2094898ac769f191b4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7892067b99435de964cf0d0220e972c') in 0.025416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/NEXT-PINK.png
-  artifactKey: Guid(6c70588cf079e884eaa69af9531a3287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/NEXT-PINK.png using Guid(6c70588cf079e884eaa69af9531a3287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd8e4a0c716636326ddc9341b4fa85c') in 0.026671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/NONE-PINK.png
-  artifactKey: Guid(ded273e45e060604081df9484573bc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/NONE-PINK.png using Guid(ded273e45e060604081df9484573bc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf56cbce6ebb29aa74fefd47687ca1f') in 0.022786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.669365 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/PAUSE-GREEN.png
-  artifactKey: Guid(6ab64a6ce62fcd4418f5dd01a41ba2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/PAUSE-GREEN.png using Guid(6ab64a6ce62fcd4418f5dd01a41ba2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c47165b3d63e08aec7f1034c7fb230') in 0.026162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/PAUSE-PINK.png
-  artifactKey: Guid(743072a41cb0e4f4f89ad780773dcb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/PAUSE-PINK.png using Guid(743072a41cb0e4f4f89ad780773dcb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c27a421778c12bc4c24dae83aa6820') in 0.026001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/PAUSE-PURPLE.png
-  artifactKey: Guid(cc03d900b2e92e14c8bbb73823cf4c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/PAUSE-PURPLE.png using Guid(cc03d900b2e92e14c8bbb73823cf4c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96115c2fad82f569bda4b9a53bb0fa7') in 0.028023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Plus_Icon.png
-  artifactKey: Guid(108f3f0394e16fc4c8e7ee1db9e95935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Plus_Icon.png using Guid(108f3f0394e16fc4c8e7ee1db9e95935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f919e04f983e3770e8bb2b8d048c34b2') in 0.023335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Loading Bar/Progress_Bar.png
-  artifactKey: Guid(a5b93d32762c76c4ab4818b49c2f74dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Loading Bar/Progress_Bar.png using Guid(a5b93d32762c76c4ab4818b49c2f74dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5519e80d7938bef129ae4ec272a31ec7') in 0.025963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Plus_Icon.png
-  artifactKey: Guid(ea4a9c4889157964ea64778839d97680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Plus_Icon.png using Guid(ea4a9c4889157964ea64778839d97680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824f0e1aa8acbeb1ad7565c2a10b88f8') in 0.013733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Progress_Slot.png
-  artifactKey: Guid(c8c8c670367bf7e489243b843eeef521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Progress_Slot.png using Guid(c8c8c670367bf7e489243b843eeef521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f43e001d2a8cfc6467598edec5f29a8') in 0.027594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/PLAY-PINK.png
-  artifactKey: Guid(15c76944e20d9274fb06d2ddae0ea730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/PLAY-PINK.png using Guid(15c76944e20d9274fb06d2ddae0ea730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3325204bbb0aca598214fd876b45df') in 0.028889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Quest_Box.png
-  artifactKey: Guid(6d20ba642c3809649a3ffc929fc3bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Quest_Box.png using Guid(6d20ba642c3809649a3ffc929fc3bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b496c80951819df36f0041ce03c32d91') in 0.040313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/PLAY-PURPLE.png
-  artifactKey: Guid(7adbab857321bf944b35c766ad018f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/PLAY-PURPLE.png using Guid(7adbab857321bf944b35c766ad018f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3cac45e6c5fb8c696e013b616bdb0e') in 0.035026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/PAUSE-ORANGE.png
-  artifactKey: Guid(5ee0443e3b8db3845bdcc8a64561189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/PAUSE-ORANGE.png using Guid(5ee0443e3b8db3845bdcc8a64561189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed506d87ebec45879cfcc379f20d2f1') in 0.026802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/PAUSE-YELLOW.png
-  artifactKey: Guid(ac3b05fb42c5a6746aead9ad92a4576f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/PAUSE-YELLOW.png using Guid(ac3b05fb42c5a6746aead9ad92a4576f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590c1760326f961ffda0a8b76187ee25') in 0.027221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/PLAY-PINK.png
-  artifactKey: Guid(f4db29cfead974e40a3b9c44b0c5a0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/PLAY-PINK.png using Guid(f4db29cfead974e40a3b9c44b0c5a0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c81612ab2e2a95ef1e14adb55b575fb') in 0.025865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.992342 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/RETRY-BLUE.png
-  artifactKey: Guid(0c9e30d6fbb2086489f8446e70c82f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/RETRY-BLUE.png using Guid(0c9e30d6fbb2086489f8446e70c82f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1401b09d609e87a5b181a7b5021f604') in 0.027353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/RETRY-RED.png
-  artifactKey: Guid(772502272acf1b14180a6a3bf7d1bc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/RETRY-RED.png using Guid(772502272acf1b14180a6a3bf7d1bc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11ca803946d3fce8b343e948cb454b0') in 0.029480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/SETTING-GREEN.png
-  artifactKey: Guid(9a69296eb21082944afa8f099d261a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/SETTING-GREEN.png using Guid(9a69296eb21082944afa8f099d261a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c25beca49bd2649e5fbd41cf056053') in 0.027516 seconds 
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/SETTING-ORANGE.png
+  artifactKey: Guid(214eeb9d4d3fc714f808e63e8bb253ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/SETTING-ORANGE.png using Guid(214eeb9d4d3fc714f808e63e8bb253ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ad1c9ad9c80a8caa93bb88c17068af') in 0.028421 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Sword_Icon.png
+  artifactKey: Guid(af50dc4fa7b6d314895d0f8c79adb4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Sword_Icon.png using Guid(af50dc4fa7b6d314895d0f8c79adb4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28af562798c8ae751223514a6281c8d2') in 0.021677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/SETTING-GREEN.png
+  artifactKey: Guid(9a69296eb21082944afa8f099d261a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/SETTING-GREEN.png using Guid(9a69296eb21082944afa8f099d261a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a657218195ec93f78ea73ea56b1459') in 0.025768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/RETRY-YELLOW.png
+  artifactKey: Guid(758ba33f1302fd0419266ce686d33422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/RETRY-YELLOW.png using Guid(758ba33f1302fd0419266ce686d33422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06042afe4b8fad24b3073790966971dc') in 0.027407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
   path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/SETTING.png
   artifactKey: Guid(2f4015e1c23539a4f950d3910a78515e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/SETTING.png using Guid(2f4015e1c23539a4f950d3910a78515e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd9c39988ab5e0155889d25f31df3cb') in 0.027374 seconds 
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/SETTING.png using Guid(2f4015e1c23539a4f950d3910a78515e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f360d03a4cee09bbded0f3f7d3b7aae') in 0.027228 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/RETRY-ORANGE.png
-  artifactKey: Guid(0d4efce68385c4a42a5ec2dcf4119bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/RETRY-ORANGE.png using Guid(0d4efce68385c4a42a5ec2dcf4119bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f417df98d33ebeea08476f3429bc573c') in 0.033318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/SETTING-BLUE.png
-  artifactKey: Guid(7114ef30d89addc4b826984d8d500c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/SETTING-BLUE.png using Guid(7114ef30d89addc4b826984d8d500c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab029250489ff10999148f85bbd6be53') in 0.031469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/SETTING-PINK.png
-  artifactKey: Guid(c10877f9becdc7e409e2dd5a85a0b658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/SETTING-PINK.png using Guid(c10877f9becdc7e409e2dd5a85a0b658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057fe7dbfdb7bf9eb1a589636ac606cc') in 0.031800 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/RETRY-PINK.png
+  artifactKey: Guid(f0eb8a744990fdb4993232a7893ee241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/RETRY-PINK.png using Guid(f0eb8a744990fdb4993232a7893ee241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5d020b94ab61afe0c706d6f16d4347') in 0.027959 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/SETTING-PINK.png
-  artifactKey: Guid(73ad846eed931f246bd6f1559a8e0d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/SETTING-PINK.png using Guid(73ad846eed931f246bd6f1559a8e0d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982aedc9b868221ab5d877840fe68df4') in 0.029139 seconds 
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/SETTING-RED.png
+  artifactKey: Guid(ab6ee42ccdac2c74790282eabd648ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/SETTING-RED.png using Guid(ab6ee42ccdac2c74790282eabd648ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e85d577230e0f28a487d6de905c798') in 0.026921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/SOUND-GREEN.png
+  artifactKey: Guid(6f928ecbf22a8504c828cf962cd084ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/SOUND-GREEN.png using Guid(6f928ecbf22a8504c828cf962cd084ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b47ba0424bb7602d5fc88f5be6428d') in 0.028470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetsStore/BigRookGames/_AssetPacks/Stylized Weapon Pack/Stylized Rocket Launcher/Textures/SoftGlow.png
+  artifactKey: Guid(e5f3479768a4514458f261239d1c911e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/BigRookGames/_AssetPacks/Stylized Weapon Pack/Stylized Rocket Launcher/Textures/SoftGlow.png using Guid(e5f3479768a4514458f261239d1c911e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7fcc66909fd1b9cf4d2617bd13776e') in 0.028075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Stats_Box.png
+  artifactKey: Guid(fb2797aeae325e14abeff8973023ab45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Stats_Box.png using Guid(fb2797aeae325e14abeff8973023ab45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36f5ae7aa4b2bed6f26e3afc8cb85d4') in 0.027109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/SHOP-PINK.png
+  artifactKey: Guid(26e20ed177b11a2409eca6c48c5e81f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/SHOP-PINK.png using Guid(26e20ed177b11a2409eca6c48c5e81f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1802d55446cedb06ce644279d0841ec') in 0.025876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/SHOP-PINK.png
+  artifactKey: Guid(739c75d8d5779aa40ad59340678ee2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/SHOP-PINK.png using Guid(739c75d8d5779aa40ad59340678ee2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b313f2b4daf845e8f7586ca90d1115a9') in 0.024327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/TROPHY-GREEN.png
+  artifactKey: Guid(5c05f2d71291f5e48b9a870c62515a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/TROPHY-GREEN.png using Guid(5c05f2d71291f5e48b9a870c62515a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c1520b57dbcba8ec3f49a1cb58367e') in 0.024521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.023064 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/Button.png
+  artifactKey: Guid(26d2e70834704ab4caaa1bcabebb3873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/Button.png using Guid(26d2e70834704ab4caaa1bcabebb3873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad424e6cabc59f9d4ee3a57f81e2ac81') in 0.025057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/ButtonShadow.png
+  artifactKey: Guid(a1bad59df67816b4e87ffbadf3753955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/ButtonShadow.png using Guid(a1bad59df67816b4e87ffbadf3753955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49ddb0477bd785d53a4669f8eb97e69') in 0.019812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/CANCEL-YELLOW.png
+  artifactKey: Guid(696c2e856057a334fae6c2bb43389503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/CANCEL-YELLOW.png using Guid(696c2e856057a334fae6c2bb43389503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168f3feeb5fa8225704ae38a623cf017') in 0.024720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/CANCEL-BLUE.png
+  artifactKey: Guid(167e36297de429e4281556a52e28700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/CANCEL-BLUE.png using Guid(167e36297de429e4281556a52e28700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7801e6dbe837ebf8b9a01dd60ffc1e') in 0.024901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/CANCEL-GREEN.png
+  artifactKey: Guid(06e9108328402f44fbbde7aa16861712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/CANCEL-GREEN.png using Guid(06e9108328402f44fbbde7aa16861712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa8be81d96f9278d4bb28cec55d162f') in 0.029078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/CANCEL-PURPLE.png
+  artifactKey: Guid(f0929fffa8460de49a9fda3d379001b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/CANCEL-PURPLE.png using Guid(f0929fffa8460de49a9fda3d379001b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc8900e5076c002dd7b76349fa5e724') in 0.026708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/CANCEL-ORANGE.png
+  artifactKey: Guid(153a16b1ba3709d4e9f29ff28aa49b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/CANCEL-ORANGE.png using Guid(153a16b1ba3709d4e9f29ff28aa49b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed00e640050369d364f542a47ca806a') in 0.027499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/CANCEL-RED.png
+  artifactKey: Guid(82c9f04eb006a7f42b84d1ae9352ed4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/CANCEL-RED.png using Guid(82c9f04eb006a7f42b84d1ae9352ed4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ceeffcfc5251ed3b3a2d39f5937e99') in 0.024117 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

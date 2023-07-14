@@ -15,7 +15,7 @@ X:/GitHub/Unity_Pencil-Project/Unity_Pencil Project
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-64691
+51520
 Successfully changed project path to: X:/GitHub/Unity_Pencil-Project/Unity_Pencil Project
 X:/GitHub/Unity_Pencil-Project/Unity_Pencil Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ X:/GitHub/Unity_Pencil-Project/Unity_Pencil Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 130.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 141.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.6f1 (e49a51cf6290)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,101 +63,101 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012776 seconds.
+Registered in 0.015329 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 137.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 141.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.819 seconds
+- Completed reload, in  0.892 seconds
 Domain Reload Profiling:
-	ReloadAssembly (820ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (893ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (586ms)
-			LoadAssemblies (93ms)
+		EndReloadAssembly (641ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (129ms)
-				TypeCache.Initialize (128ms)
-					TypeCache.ScanAssembly (127ms)
+			SetupTypeCache (135ms)
+				TypeCache.Initialize (135ms)
+					TypeCache.ScanAssembly (133ms)
 				ResolveRequiredComponents (1ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (368ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (406ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (63ms)
-				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (138ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				InitializePlatformSupportModulesInManaged (65ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (141ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006278 seconds.
+Registered in 0.007097 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image X:\GitHub\Unity_Pencil-Project\Unity_Pencil Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image X:\GitHub\Unity_Pencil-Project\Unity_Pencil Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 129.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 146.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.627 seconds
+- Completed reload, in  1.805 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1628ms)
-		BeginReloadAssembly (240ms)
+	ReloadAssembly (1806ms)
+		BeginReloadAssembly (269ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (128ms)
-		EndReloadAssembly (1255ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (1362ms)
+			LoadAssemblies (137ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (311ms)
-				TypeCache.Initialize (298ms)
-					TypeCache.ScanAssembly (293ms)
-				ResolveRequiredComponents (13ms)
+			SetupTypeCache (335ms)
+				TypeCache.Initialize (320ms)
+					TypeCache.ScanAssembly (314ms)
+				ResolveRequiredComponents (14ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (719ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (767ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (130ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (343ms)
-				ProcessInitializeOnLoadMethodAttributes (93ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (147ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5437 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 43 unused Assets / (389.6 KB). Loaded Objects now: 5916.
 Memory consumption went from 0.86 GB to 0.86 GB.
-Total: 3.853800 ms (FindLiveObjects: 0.412500 ms CreateObjectMapping: 0.137000 ms MarkObjects: 3.214600 ms  DeleteObjects: 0.088700 ms)
+Total: 4.892500 ms (FindLiveObjects: 0.532000 ms CreateObjectMapping: 0.254600 ms MarkObjects: 3.977600 ms  DeleteObjects: 0.127100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,343 +171,479 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 313003.605787 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/HELP-GREEN.png
-  artifactKey: Guid(a73e400007cac91429d97a83e05022fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/HELP-GREEN.png using Guid(a73e400007cac91429d97a83e05022fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1baeae7ea4351ad14bc6526db9a05ef') in 0.164913 seconds 
+  Time since last request: 28082.432486 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Shield_Icon.png
+  artifactKey: Guid(47c96e5414c2b4449920b448538df93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Icons/Shield_Icon.png using Guid(47c96e5414c2b4449920b448538df93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464c794593b5be3ba0bc10c96a37afa8') in 0.172894 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.431454 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Inventory_Slot.png
-  artifactKey: Guid(70c500e3f9a702743946d084c36b42c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Inventory_Slot.png using Guid(70c500e3f9a702743946d084c36b42c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8ab68d225012448ccf0b96266ccb18') in 0.022628 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.304122 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Inventory_Slots.png
-  artifactKey: Guid(ea19e8ef39d89f648a757b47c87f2365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Inventory_Slots.png using Guid(ea19e8ef39d89f648a757b47c87f2365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88e6f5768173c6ac071c2e4bb9cc3f1') in 0.037684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Login Panel/LoginButton_Pressed.png
-  artifactKey: Guid(b75aa2349cb309240afa0694dffe6027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Login Panel/LoginButton_Pressed.png using Guid(b75aa2349cb309240afa0694dffe6027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dac40c2119cd7a181364c1bfeb1c2a5') in 0.027276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Bar/Mana.png
-  artifactKey: Guid(78ee397acef927a439f9c6db499a7d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Bar/Mana.png using Guid(78ee397acef927a439f9c6db499a7d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a396932488f861097d38b20493af6fdd') in 0.027073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/MORE-PURPLE.png
-  artifactKey: Guid(8cd9a1520355bd34b9890d6697d6f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/MORE-PURPLE.png using Guid(8cd9a1520355bd34b9890d6697d6f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e286c8453e45537f19e5c0fa4db744') in 0.028036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/MORE.png
-  artifactKey: Guid(4ba1b62c4f1a3374e9f646992264a063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/MORE.png using Guid(4ba1b62c4f1a3374e9f646992264a063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bf8e1a2df5b7abe9c912cbfa4343bd') in 0.031750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/MENU-ORANGE.png
-  artifactKey: Guid(e5a4892a9b9438045818397cf947ba21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/MENU-ORANGE.png using Guid(e5a4892a9b9438045818397cf947ba21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462c5a85f17548d0be8ddfce82ace28d') in 0.025370 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Login Panel/LoginButton.png
-  artifactKey: Guid(a10be1c4d44d5e447bf2917dbeb8f2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Login Panel/LoginButton.png using Guid(a10be1c4d44d5e447bf2917dbeb8f2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cf57d764834b6f6930cb3e6d339d81') in 0.028709 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/RETRY-BLUE.png
+  artifactKey: Guid(0c9e30d6fbb2086489f8446e70c82f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/RETRY-BLUE.png using Guid(0c9e30d6fbb2086489f8446e70c82f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa47ba069cad994cc18e562fd93bfaa2') in 0.029066 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Login Panel/LoginPassword_Box.png
-  artifactKey: Guid(19c4df2c9c38ace4fbf0731a1dbe0527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Login Panel/LoginPassword_Box.png using Guid(19c4df2c9c38ace4fbf0731a1dbe0527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b780746446f3e959ba937ce013efce51') in 0.026464 seconds 
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Others/wheel.png
+  artifactKey: Guid(8f8bcef062a6ca64bbb886efbf1e43d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Others/wheel.png using Guid(8f8bcef062a6ca64bbb886efbf1e43d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b9f6b0d0fe8a8cb5fce6b61b723475') in 0.058434 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Money_Bar.png
-  artifactKey: Guid(c7af4caf86986a24d89b41c984aa68d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Money_Bar.png using Guid(c7af4caf86986a24d89b41c984aa68d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145f511a71b17fc10b368efd95749d95') in 0.028350 seconds 
+  Time since last request: 0.000041 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/SOUND-PURPLE.png
+  artifactKey: Guid(4bd98d53ebd167d48a09d103ba4c8cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/SOUND-PURPLE.png using Guid(4bd98d53ebd167d48a09d103ba4c8cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3073bc35764afb5dab97fa09ad84361d') in 0.028752 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Login Panel/Login_Box.png
-  artifactKey: Guid(df1945708fc4d6742b37268ae519a4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Login Panel/Login_Box.png using Guid(df1945708fc4d6742b37268ae519a4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9378355ca140888a7b844c8fcd155d0') in 0.038904 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/SOUND.png
+  artifactKey: Guid(c426cb9f23ce4e344954b6612bd4221a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/SOUND.png using Guid(c426cb9f23ce4e344954b6612bd4221a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03997439b693b93df82c9d25eab264b5') in 0.024852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Red_Ribbon.png
+  artifactKey: Guid(f42791169da3c0149ad7d455c24026ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Red_Ribbon.png using Guid(f42791169da3c0149ad7d455c24026ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96c25d861794ed3b1248f477b374fa0') in 0.026386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Title_Box.png
+  artifactKey: Guid(9aa2c942e55346b48883bf78aba327ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Title_Box.png using Guid(9aa2c942e55346b48883bf78aba327ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a2b83c2dd7c5765a2886f9b3c0ea08') in 0.030229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/SHOP-PURPLE.png
+  artifactKey: Guid(24a51b12a0b531c46820b0f142412486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/SHOP-PURPLE.png using Guid(24a51b12a0b531c46820b0f142412486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7835f361dbab34f3394a959585252985') in 0.025316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/SOUND-PINK.png
+  artifactKey: Guid(70780e72a4ec15542af7b7b5400b16f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/SOUND-PINK.png using Guid(70780e72a4ec15542af7b7b5400b16f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5fa85ecb4e5c80493315a0ce212084') in 0.023309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/TROPHY-YELLOW.png
+  artifactKey: Guid(c18d5de67f756704ab3a064ee6f1e694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/TROPHY-YELLOW.png using Guid(c18d5de67f756704ab3a064ee6f1e694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa717393b89f00df2bd8ac5546b03ff') in 0.026621 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000037 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/MORE-ORANGE.png
-  artifactKey: Guid(3e59839765e517e4db0691f249834bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/MORE-ORANGE.png using Guid(3e59839765e517e4db0691f249834bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa989e332c25e669057d1517d7ce7e4b') in 0.029252 seconds 
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/SHOP-NAVYBLUE.png
+  artifactKey: Guid(4b6ad432634e5254c8dff222d39df26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/SHOP-NAVYBLUE.png using Guid(4b6ad432634e5254c8dff222d39df26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0aa2d32f1758eb118bbb4ed06818e78') in 0.028050 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/MORE-PINK.png
-  artifactKey: Guid(1a93d610dc5638543a153305a2084673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/MORE-PINK.png using Guid(1a93d610dc5638543a153305a2084673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b96e7b66a689fa7f5aa088f9548736') in 0.026938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/MORE-YELLOW.png
-  artifactKey: Guid(85df4d8e4c3b53e4c97807a9077ff0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/MORE-YELLOW.png using Guid(85df4d8e4c3b53e4c97807a9077ff0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07707907dcc005899ef4f2ff422070bc') in 0.030541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.160369 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Inventory_Slot.png
-  artifactKey: Guid(70c500e3f9a702743946d084c36b42c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Inventory_Slot.png using Guid(70c500e3f9a702743946d084c36b42c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2c37ab6e6fc2b3c14559fbd60403bc') in 0.019969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 64.813239 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Inventory_Slot.png
-  artifactKey: Guid(70c500e3f9a702743946d084c36b42c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Inventory_Slot.png using Guid(70c500e3f9a702743946d084c36b42c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f115ad27abb0748cf1217e007f324846') in 0.017557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 137.552760 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon
-  artifactKey: Guid(d269318ce91a9de4fb9fb987fe53c530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon using Guid(d269318ce91a9de4fb9fb987fe53c530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31da8f15c6e23f7e50543380698c3207') in 0.011770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 44.945543 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Items
-  artifactKey: Guid(a1b4ab5cfc038af45a7b52040d76c972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Items using Guid(a1b4ab5cfc038af45a7b52040d76c972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1091a5cd1e6cfdba24675fda6672b6d') in 0.010668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.978556 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Items/I-001.png
-  artifactKey: Guid(206edb6bbdfba8a419ccde3454eb6277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Items/I-001.png using Guid(206edb6bbdfba8a419ccde3454eb6277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257ae4e38c74f2bc26af8ed329ef7c70') in 0.021283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 92.596206 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/ButtonShadow.png
-  artifactKey: Guid(a1bad59df67816b4e87ffbadf3753955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/ButtonShadow.png using Guid(a1bad59df67816b4e87ffbadf3753955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ace1c996775b4469d33641ea644d49') in 0.011416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.902120 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/ButtonShadow.png
-  artifactKey: Guid(a1bad59df67816b4e87ffbadf3753955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/ButtonShadow.png using Guid(a1bad59df67816b4e87ffbadf3753955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc11b9c882ae786fe9b58e9bf84a4037') in 0.011366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 348.801809 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Red_Ribbon.png
-  artifactKey: Guid(f42791169da3c0149ad7d455c24026ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Red_Ribbon.png using Guid(f42791169da3c0149ad7d455c24026ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d13071980f7fb2388e13f7eac44ffb') in 0.027850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.359512 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Red_Ribbon.png
-  artifactKey: Guid(f42791169da3c0149ad7d455c24026ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Red_Ribbon.png using Guid(f42791169da3c0149ad7d455c24026ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1676ead3dbf3a3d12a90bc7fc9f287') in 0.011112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.087225 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Red_Ribbon.png
-  artifactKey: Guid(f42791169da3c0149ad7d455c24026ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Red_Ribbon.png using Guid(f42791169da3c0149ad7d455c24026ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b80b3ed212964779ad94d0f483196a9') in 0.010930 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 95.162024 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Bar/Player_Frame.png
-  artifactKey: Guid(7788578edcc370145ae5156b7d9370f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Bar/Player_Frame.png using Guid(7788578edcc370145ae5156b7d9370f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174212a06f1763898564d8f907f86259') in 0.026846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.084459 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Bar/Player_Frame.png
-  artifactKey: Guid(7788578edcc370145ae5156b7d9370f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Bar/Player_Frame.png using Guid(7788578edcc370145ae5156b7d9370f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1418c82293a49ddd3329f3c2109f22da') in 0.020256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 268.149904 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/NEXT-BLUE.png
-  artifactKey: Guid(36d3d45b07c4ff84b8b201526d75c5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/NEXT-BLUE.png using Guid(36d3d45b07c4ff84b8b201526d75c5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c973bee29ae3150cf1de9745e9c6a3') in 0.027249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Nickname_Slot.png
-  artifactKey: Guid(4e919d44466f0624191cd947ff906d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Nickname_Slot.png using Guid(4e919d44466f0624191cd947ff906d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d351051039f13789a854c0ba408707') in 0.022712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/NEXT-PINK.png
-  artifactKey: Guid(890dde629f4f6ed4fbc62c580e1b8120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/NEXT-PINK.png using Guid(890dde629f4f6ed4fbc62c580e1b8120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4751e545b13c7b50ad5ef250d0e81f87') in 0.026219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/NONE-ORANGE.png
-  artifactKey: Guid(7ab65e5cd06e7884c92dcb2eacd0fe83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/NONE-ORANGE.png using Guid(7ab65e5cd06e7884c92dcb2eacd0fe83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9139a7bc9e8298a5d94036e105b9707b') in 0.030512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/NONE-PINK.png
-  artifactKey: Guid(77474df8bb4311549a992446d09a7bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/NONE-PINK.png using Guid(77474df8bb4311549a992446d09a7bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fe0874788f0d43272b69352bef6221') in 0.027910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/PAUSE.png
-  artifactKey: Guid(06c41f737a8e5b342acddfe5fac9c8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/PAUSE.png using Guid(06c41f737a8e5b342acddfe5fac9c8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc145acd347f04d1333200bdbecf400') in 0.025529 seconds 
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/SOUND-RED.png
+  artifactKey: Guid(cdc6f25bae048c741ba01e2e9ea29d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/SOUND-RED.png using Guid(cdc6f25bae048c741ba01e2e9ea29d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfaf1c7a62be3b8c2dc43e34ba9246e5') in 0.028134 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/NEXT-PURPLE.png
-  artifactKey: Guid(e0d2ac1421d64b045a98133d767f2d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/NEXT-PURPLE.png using Guid(e0d2ac1421d64b045a98133d767f2d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275f534bb1997d3c6e709506d59f9dc3') in 0.026065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/NONE-GREEN.png
-  artifactKey: Guid(4478d3986372d454f9e559137bbafdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/NONE-GREEN.png using Guid(4478d3986372d454f9e559137bbafdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2653f3cfa22067ae3015f416d7021871') in 0.028708 seconds 
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Reward_Slot.png
+  artifactKey: Guid(92a4fb96206097047a300ebace4278a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Reward_Slot.png using Guid(92a4fb96206097047a300ebace4278a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04de2443c507d4b4a35140f8c0a897af') in 0.021786 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/NEXT-NAVYBLUE.png
-  artifactKey: Guid(6471abc641a13c247b009fbec33fff41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/NEXT-NAVYBLUE.png using Guid(6471abc641a13c247b009fbec33fff41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede750622dbd1c14e6a47fb6d9d63ce9') in 0.028987 seconds 
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/TROPHY-ORANGE.png
+  artifactKey: Guid(bd720eb19852f05409132b6ea0d26681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/TROPHY-ORANGE.png using Guid(bd720eb19852f05409132b6ea0d26681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262f1828638090031234751f3b80bea4') in 0.030084 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/NONE-PURPLE.png
-  artifactKey: Guid(98b31b468aeeb854bae5b267173bf354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/NONE-PURPLE.png using Guid(98b31b468aeeb854bae5b267173bf354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a285480bd7a5fd7f5a99a0bc76ae18') in 0.028155 seconds 
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/RETRY-ORANGE.png
+  artifactKey: Guid(0d4efce68385c4a42a5ec2dcf4119bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/RETRY-ORANGE.png using Guid(0d4efce68385c4a42a5ec2dcf4119bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e848e66b4cca907ae04a980e3ddcb0') in 0.027713 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.700726 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/PAUSE-BLUE.png
-  artifactKey: Guid(49335cb16e63a8145af39589798bbed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/PAUSE-BLUE.png using Guid(49335cb16e63a8145af39589798bbed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acfa2972d3eaee1cc7e50f202cfc287') in 0.025867 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/SETTING-BLUE.png
+  artifactKey: Guid(7114ef30d89addc4b826984d8d500c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/SETTING-BLUE.png using Guid(7114ef30d89addc4b826984d8d500c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b7baefed87de3f983e44e37d8e27ea') in 0.027816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/SOUND-YELLOW.png
+  artifactKey: Guid(0c5df5e34a5d55643abab18aa1b8849b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/SOUND-YELLOW.png using Guid(0c5df5e34a5d55643abab18aa1b8849b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6e0427cad1c98bd0ccb6c3582c7c23') in 0.028236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/SOUND-ORANGE.png
+  artifactKey: Guid(b521e3a8c4fcf5c4bbf1024a73c50d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/SOUND-ORANGE.png using Guid(b521e3a8c4fcf5c4bbf1024a73c50d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9633ecdeeac5b7c0dbf3824a5b4ae428') in 0.028696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Violet_Ribbon.png
+  artifactKey: Guid(02e21a7595645644e80f34c809e010e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Violet_Ribbon.png using Guid(02e21a7595645644e80f34c809e010e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f9c0c5e4a3f12d946bfc371b364e4f') in 0.020923 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/PAUSE-PINK.png
-  artifactKey: Guid(208f622c3887d26469d5c2612d6b2140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/PAUSE-PINK.png using Guid(208f622c3887d26469d5c2612d6b2140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93efbe7a1f2baa813b6e474fbc1db317') in 0.025003 seconds 
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/RETRY.png
+  artifactKey: Guid(b56a9c22d15860c41a614cc138b1653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/RETRY.png using Guid(b56a9c22d15860c41a614cc138b1653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2bf482de86bca6d6451d1a9b52e836') in 0.026207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/TROPHY-PINK.png
+  artifactKey: Guid(95f08cac20d980c4aae72b38b4a3cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/TROPHY-PINK.png using Guid(95f08cac20d980c4aae72b38b4a3cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c745142b4e27d26c75998702072045') in 0.027259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/SHOP-ORANGE.png
+  artifactKey: Guid(ae770fb04439a99439e98228452fdb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/SHOP-ORANGE.png using Guid(ae770fb04439a99439e98228452fdb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f10a1bc1b9a57eb3a639295cc43b884') in 0.026802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.043274 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Others/Blue sunburst.png
+  artifactKey: Guid(05db4d2766f4c854a922594d88df4c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Others/Blue sunburst.png using Guid(05db4d2766f4c854a922594d88df4c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff4fd067c51617042e8f06f5e461d3b') in 0.146243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/CANCEL-PINK.png
+  artifactKey: Guid(e78362a860b7a364f850f1e0bfdff92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/CANCEL-PINK.png using Guid(e78362a860b7a364f850f1e0bfdff92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e02d6ac01dab0cf969d81005a5cd7ba') in 0.027432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/CANCEL-NAVYBLUE.png
+  artifactKey: Guid(e9a43a7f784917c4483ef0131d815773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/CANCEL-NAVYBLUE.png using Guid(e9a43a7f784917c4483ef0131d815773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e79542769d71760ed7b139aa8d344c') in 0.023936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/CANCEL-PINK.png
+  artifactKey: Guid(f5f717134db4adc47bf3b815a5de97e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/CANCEL-PINK.png using Guid(f5f717134db4adc47bf3b815a5de97e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af2b551ea0648a48be1220262c2c4b1') in 0.024575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.172367 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel
+  artifactKey: Guid(fd9d288573ae50a468c9398d05952467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel using Guid(fd9d288573ae50a468c9398d05952467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c50df9131c37955e302dafd68a888d') in 0.009611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.642191 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/blank.png
+  artifactKey: Guid(41a27c418e3f38f4d9ef073d36917923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/blank.png using Guid(41a27c418e3f38f4d9ef073d36917923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8315077b711f62b224af9649269a76fb') in 0.014110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.578727 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/blank.png
+  artifactKey: Guid(41a27c418e3f38f4d9ef073d36917923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Menu Panel/blank.png using Guid(41a27c418e3f38f4d9ef073d36917923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d484a7958aec5ab426b9a1fd9ebc015') in 0.015113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.586765 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Quest_Box.png
+  artifactKey: Guid(6d20ba642c3809649a3ffc929fc3bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Quest_Box.png using Guid(6d20ba642c3809649a3ffc929fc3bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3254dae4b49be7b9973e6dcaa20964b4') in 0.039682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.516891 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Character_Box.png
+  artifactKey: Guid(81c655d952ad6ca498cc4b1491740ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/Character_Box.png using Guid(81c655d952ad6ca498cc4b1491740ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdee0d8eb91bf7e35aec61fdd410c0e') in 0.033043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.318176 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/HELP-BLUE.png
+  artifactKey: Guid(4182e33e15eca264db68f9c1eacc1640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/HELP-BLUE.png using Guid(4182e33e15eca264db68f9c1eacc1640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da42242370dfbb8e0ed50895dc4f762f') in 0.024030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Login Panel/Login_Box.png
+  artifactKey: Guid(df1945708fc4d6742b37268ae519a4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Login Panel/Login_Box.png using Guid(df1945708fc4d6742b37268ae519a4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994a79b6447ef411a5fc06a478955880') in 0.033152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Login Panel/LoginButton_Pressed.png
+  artifactKey: Guid(b75aa2349cb309240afa0694dffe6027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Login Panel/LoginButton_Pressed.png using Guid(b75aa2349cb309240afa0694dffe6027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f314994fe0d0e52c783217a4c6a465') in 0.021842 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/PLAY-ORANGE.png
-  artifactKey: Guid(9b9ed28e63dcdab459276d3ac5d77a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/PLAY-ORANGE.png using Guid(9b9ed28e63dcdab459276d3ac5d77a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f87495f1e653ffad014364d675a5873') in 0.027126 seconds 
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/PAUSE-NAVYBLUE.png
+  artifactKey: Guid(3eaf562ca80c6064da3f7235f02c27fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/PAUSE-NAVYBLUE.png using Guid(3eaf562ca80c6064da3f7235f02c27fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44c56db594734d0ba33483d1cc953af') in 0.024405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/MORE-NAVYBLUE.png
+  artifactKey: Guid(06fdc65c5406e5d4ebdaf835af1beb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/MORE-NAVYBLUE.png using Guid(06fdc65c5406e5d4ebdaf835af1beb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece17272f37c899619c8d93bab4941ce') in 0.025514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/NONE-BLUE.png
+  artifactKey: Guid(5232c258f94b2094898ac769f191b4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/NONE-BLUE.png using Guid(5232c258f94b2094898ac769f191b4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1280dc8e961e0c7ff94e113790b53075') in 0.027660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/MORE-BLUE.png
+  artifactKey: Guid(852ed072e2798a54881f1a551de3ecac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/MORE-BLUE.png using Guid(852ed072e2798a54881f1a551de3ecac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fbec5dd0a6f65f19ddeefd8eeacf22') in 0.023862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/PLAY-NAVYBLUE.png
+  artifactKey: Guid(8a46e3df0c3611d42a6cbc86d0da7bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/PLAY-NAVYBLUE.png using Guid(8a46e3df0c3611d42a6cbc86d0da7bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b381e3211fc1abf86816372898b699c3') in 0.026294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Loading Bar/Progress_Bar.png
+  artifactKey: Guid(a5b93d32762c76c4ab4818b49c2f74dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Loading Bar/Progress_Bar.png using Guid(a5b93d32762c76c4ab4818b49c2f74dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19119206f77cc4bd2ff2686370a778c') in 0.023767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/PLAY-BLUE.png
+  artifactKey: Guid(7b62124c186e8f543958b40c3cd34931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/PLAY-BLUE.png using Guid(7b62124c186e8f543958b40c3cd34931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2672451e9d7a125b03458d372889087') in 0.026200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/PAUSE-BLUE.png
+  artifactKey: Guid(49335cb16e63a8145af39589798bbed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/PAUSE-BLUE.png using Guid(49335cb16e63a8145af39589798bbed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b419a0cd774e54d381c15364f981ef0f') in 0.024666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/NONE-NAVYBLUE.png
+  artifactKey: Guid(104390a66531ac540a932f242044d2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/NONE-NAVYBLUE.png using Guid(104390a66531ac540a932f242044d2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad52595990b583fbab70a19b968f713f') in 0.026096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.914710 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Close_Icon.png
+  artifactKey: Guid(91b7e74335f44c44c8dba8435bf6c3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Close_Icon.png using Guid(91b7e74335f44c44c8dba8435bf6c3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a211047956ea00bbc11e093962fa594') in 0.019089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Comleted_Icon.png
+  artifactKey: Guid(6d49331c7dc06794f98d4a1c17790d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Comleted_Icon.png using Guid(6d49331c7dc06794f98d4a1c17790d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb2c3f016891481a0635fdf68538e7a') in 0.018668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Crystal_Icon.png
+  artifactKey: Guid(bebdcb1b1d4112d49bb5e505c72918c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Crystal_Icon.png using Guid(bebdcb1b1d4112d49bb5e505c72918c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565a2d7c23a404fc05b462727add1dc6') in 0.021257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.190115 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Loading Bar/Decoration.png
+  artifactKey: Guid(bb4c08313ab8d094099ba3912307d052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Loading Bar/Decoration.png using Guid(bb4c08313ab8d094099ba3912307d052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9e80305ad047110ad9fd1d06f8f429') in 0.040810 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/QuestDemo.png
-  artifactKey: Guid(0c89fb34eb40dac459225c387c909660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/QuestDemo.png using Guid(0c89fb34eb40dac459225c387c909660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dbfde45b113bcb261b499641488882') in 0.039809 seconds 
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/HELP-PINK.png
+  artifactKey: Guid(cb541856406e7a84ebd34b295614756e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/HELP-PINK.png using Guid(cb541856406e7a84ebd34b295614756e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6c62ef88515a7da365b8f16b188074') in 0.026819 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/PLAY-RED.png
-  artifactKey: Guid(88a789d000e15fd419a09a41f123dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/PLAY-RED.png using Guid(88a789d000e15fd419a09a41f123dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bec9aa99dc378093552f5e6222eb1c') in 0.029392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/PLAY-YELLOW.png
-  artifactKey: Guid(c4a9e51ab8e1c4c4a9a985c7649a2729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/PLAY-YELLOW.png using Guid(c4a9e51ab8e1c4c4a9a985c7649a2729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1547652b70b704b2e54a494b9bde7b19') in 0.028867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/PLAY-BLUE.png
-  artifactKey: Guid(7b62124c186e8f543958b40c3cd34931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Blue/PLAY-BLUE.png using Guid(7b62124c186e8f543958b40c3cd34931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2152dbee6c22efb60cb7a40a06ce04') in 0.030131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/PAUSE-NAVYBLUE.png
-  artifactKey: Guid(3eaf562ca80c6064da3f7235f02c27fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/PAUSE-NAVYBLUE.png using Guid(3eaf562ca80c6064da3f7235f02c27fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e32e6f3df885552a5d78c90a8bb62a') in 0.026001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/PLAY-GREEN.png
-  artifactKey: Guid(ceb387c41955bf242baede503d196e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/PLAY-GREEN.png using Guid(ceb387c41955bf242baede503d196e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d4814bd861374dbea7936cdcd9d55e') in 0.029456 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/HELP-PINK.png
+  artifactKey: Guid(1384cb3879965744ba44c0e46cc8af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/HELP-PINK.png using Guid(1384cb3879965744ba44c0e46cc8af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c34597d7ebe4d86153522dc165c3eec') in 0.025082 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/PLAY.png
-  artifactKey: Guid(83f745008b3aec249bd75f564a569457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/PLAY.png using Guid(83f745008b3aec249bd75f564a569457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be45cc73709bfe1817b104eee184567a') in 0.026082 seconds 
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Items/I-001.png
+  artifactKey: Guid(206edb6bbdfba8a419ccde3454eb6277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Items/I-001.png using Guid(206edb6bbdfba8a419ccde3454eb6277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831adbafe3a9cca0a16ea9b5f358fc30') in 0.026962 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/PAUSE-RED.png
-  artifactKey: Guid(4cce0fd7c43165d47b14d43ff6a98713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/PAUSE-RED.png using Guid(4cce0fd7c43165d47b14d43ff6a98713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95797f015677390ccc3b2f52788edf44') in 0.027576 seconds 
+  Time since last request: 0.249590 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Inventory_Slot.png
+  artifactKey: Guid(70c500e3f9a702743946d084c36b42c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/Inventory_Slot.png using Guid(70c500e3f9a702743946d084c36b42c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f6dddb1a587de454272324131c0a96') in 0.025429 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/PLAY-NAVYBLUE.png
-  artifactKey: Guid(8a46e3df0c3611d42a6cbc86d0da7bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/NavyBlue/PLAY-NAVYBLUE.png using Guid(8a46e3df0c3611d42a6cbc86d0da7bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ab8444e670a1055336fc32d9cda247') in 0.026038 seconds 
+  Time since last request: 0.000083 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/InventoryDemo.png
+  artifactKey: Guid(db7440f3047d8254a9e4c31d20b8c489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Inventory/InventoryDemo.png using Guid(db7440f3047d8254a9e4c31d20b8c489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b0ca613a5faa464597383630812ea0') in 0.036873 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.011300 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/RETRY.png
-  artifactKey: Guid(b56a9c22d15860c41a614cc138b1653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/RETRY.png using Guid(b56a9c22d15860c41a614cc138b1653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487d6b5a73faadf866408ada58abc36a') in 0.030143 seconds 
+  Time since last request: 125.395931 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/CharacterDemo.png
+  artifactKey: Guid(50392d800eebceb43a34250d81f4bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Panel/CharacterDemo.png using Guid(50392d800eebceb43a34250d81f4bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea87d1a3e24f701fc8bfef3b3f80dd48') in 0.041228 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Reward_Slot.png
-  artifactKey: Guid(92a4fb96206097047a300ebace4278a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Quest Panel/Reward_Slot.png using Guid(92a4fb96206097047a300ebace4278a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d330bf7c8e32c9706161131ea634e70') in 0.026919 seconds 
+  Time since last request: 1.431709 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Bar/Health.png
+  artifactKey: Guid(2927e1d7d646af8459f2898fc4fce62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Bar/Health.png using Guid(2927e1d7d646af8459f2898fc4fce62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a0afb5039f083e891b10d56b34959f') in 0.022804 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/RETRY-YELLOW.png
-  artifactKey: Guid(758ba33f1302fd0419266ce686d33422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/RETRY-YELLOW.png using Guid(758ba33f1302fd0419266ce686d33422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7f937bc05c38f87a61d450e5ea01a8') in 0.027532 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Bar/HealthMana_Cover.png
+  artifactKey: Guid(0d17ab7bbdf3dc544b7e132df546fa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Character Bar/HealthMana_Cover.png using Guid(0d17ab7bbdf3dc544b7e132df546fa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd2e1fa8ceb4f0738f957b201a69d37') in 0.022788 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/SETTING-YELLOW.png
-  artifactKey: Guid(2530984098245d84bb54ecd99031968c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/SETTING-YELLOW.png using Guid(2530984098245d84bb54ecd99031968c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b667d68d0d4ee19578fafdcd2a188e2') in 0.031491 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/HELP-RED.png
+  artifactKey: Guid(4776836a76b72ea438997f694867ef3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/HELP-RED.png using Guid(4776836a76b72ea438997f694867ef3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e30d47f7a369ff950f310fab9f736d') in 0.026052 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/RETRY-PURPLE.png
-  artifactKey: Guid(5fb397da235af454f8466ed50ce3154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/RETRY-PURPLE.png using Guid(5fb397da235af454f8466ed50ce3154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745bee5f92f199792acab938a7cb67c6') in 0.030767 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/HELP.png
+  artifactKey: Guid(0611b9480b6c0de4ea8f0f259e353891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/HELP.png using Guid(0611b9480b6c0de4ea8f0f259e353891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fa9fc2f4407a4b1fa1dd7b547b9282') in 0.022797 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/SETTING-RED.png
-  artifactKey: Guid(ab6ee42ccdac2c74790282eabd648ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/SETTING-RED.png using Guid(ab6ee42ccdac2c74790282eabd648ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02ffd511fde165615989a460e599ace') in 0.030993 seconds 
+  Time since last request: 0.000043 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/HELP-GREEN.png
+  artifactKey: Guid(a73e400007cac91429d97a83e05022fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/HELP-GREEN.png using Guid(a73e400007cac91429d97a83e05022fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1183caa628fef6792dd1f42825df22cc') in 0.023131 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/RETRY-PINK.png
-  artifactKey: Guid(8bd2d7272088102478ba69a7fc9db87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Lavender/RETRY-PINK.png using Guid(8bd2d7272088102478ba69a7fc9db87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8a4674c2c15e02cba2be335532c9c1') in 0.030842 seconds 
+  Time since last request: 7.642731 seconds.
+  path: Assets/AssetsStore/Simple Fantasy GUI/PNG/Login Panel/LoginDemo.png
+  artifactKey: Guid(f87fc246712f16e4d875613fc90a11d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Simple Fantasy GUI/PNG/Login Panel/LoginDemo.png using Guid(f87fc246712f16e4d875613fc90a11d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b157028e3d6960bfdc5ad1085005b6b') in 0.030551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/MENU-RED.png
+  artifactKey: Guid(590c625203bdad149ba3094d0fd6c2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/MENU-RED.png using Guid(590c625203bdad149ba3094d0fd6c2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538f32a3cc643bf74344d11af65412db') in 0.023369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/MENU-PURPLE.png
+  artifactKey: Guid(e4edee2ecacf96646b34b7c635dd3de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/MENU-PURPLE.png using Guid(e4edee2ecacf96646b34b7c635dd3de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a636d9b4eb1addb07d26fd451cb8efe4') in 0.025022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/MENU-ORANGE.png
+  artifactKey: Guid(e5a4892a9b9438045818397cf947ba21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/MENU-ORANGE.png using Guid(e5a4892a9b9438045818397cf947ba21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1261ee4172d907f69daa86744e1dff9') in 0.025205 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/SETTING-PURPLE.png
-  artifactKey: Guid(f71170f3c46f24a4da518646388cc431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/SETTING-PURPLE.png using Guid(f71170f3c46f24a4da518646388cc431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ebe0e7712ef6c28e398959c439afec') in 0.031882 seconds 
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/MENU-PINK.png
+  artifactKey: Guid(335007ed1e5d3b345aac12eb923b4e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/MENU-PINK.png using Guid(335007ed1e5d3b345aac12eb923b4e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2341a3cc16cbeca565b0ec889110eb') in 0.023774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/MENU-GREEN.png
+  artifactKey: Guid(cac635010d555f44887b99c9a9d11c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/MENU-GREEN.png using Guid(cac635010d555f44887b99c9a9d11c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b0f984ba902165e8e1169ae9193924') in 0.027542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.675696 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/MORE.png
+  artifactKey: Guid(4ba1b62c4f1a3374e9f646992264a063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Icon/MORE.png using Guid(4ba1b62c4f1a3374e9f646992264a063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5c0ddbcd54abbb647584e5d79de9ea') in 0.023199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/MORE-RED.png
+  artifactKey: Guid(c7f652ae4d569364fb4cda1775149817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/MORE-RED.png using Guid(c7f652ae4d569364fb4cda1775149817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6fd74a98245184dab29f7260e60adb') in 0.024487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/MORE-YELLOW.png
+  artifactKey: Guid(85df4d8e4c3b53e4c97807a9077ff0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/MORE-YELLOW.png using Guid(85df4d8e4c3b53e4c97807a9077ff0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf1a9479cb0bb03fa63266ff3c128d6') in 0.026146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/NONE-YELLOW.png
+  artifactKey: Guid(f07b18edb32d92e4580f96823ede956c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/NONE-YELLOW.png using Guid(f07b18edb32d92e4580f96823ede956c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0961fe6bf57bd43c5e4950962695d198') in 0.024813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/NONE-RED.png
+  artifactKey: Guid(93e474497d88bee4194189e676931626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/NONE-RED.png using Guid(93e474497d88bee4194189e676931626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf303a3e1f46f87365e58e82eecf808') in 0.028042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Blocks/P-003.png
+  artifactKey: Guid(fb772cfe029e67440848367d1dc0b02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Blocks/P-003.png using Guid(fb772cfe029e67440848367d1dc0b02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e4ff26fb9ef7d9452b41fc836b4e15') in 0.038869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Blocks/P-001.png
+  artifactKey: Guid(eb0fa81bb9d59d64ea9e9809732c6336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Blocks/P-001.png using Guid(eb0fa81bb9d59d64ea9e9809732c6336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4c24819d50630cae7a53e1b6eaf769') in 0.033838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/NEXT-ORANGE.png
+  artifactKey: Guid(0a87d4f81e028be4c839dc5f855a41b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Orange/NEXT-ORANGE.png using Guid(0a87d4f81e028be4c839dc5f855a41b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a318083f7bcfbf0ad021c8e4075ab1a7') in 0.026167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/NONE-PURPLE.png
+  artifactKey: Guid(98b31b468aeeb854bae5b267173bf354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/NONE-PURPLE.png using Guid(98b31b468aeeb854bae5b267173bf354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4849feec68d2bb6fdc2a0dadcd77013e') in 0.025116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.477581 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/PAUSE-GREEN.png
+  artifactKey: Guid(6ab64a6ce62fcd4418f5dd01a41ba2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/PAUSE-GREEN.png using Guid(6ab64a6ce62fcd4418f5dd01a41ba2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19698a6259fb3fdee5ac20ed26eb7671') in 0.027216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/PLAY-RED.png
+  artifactKey: Guid(88a789d000e15fd419a09a41f123dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Red/PLAY-RED.png using Guid(88a789d000e15fd419a09a41f123dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdfd5822b0bf7fd9add7d4e2b331106') in 0.026563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/PAUSE-PINK.png
+  artifactKey: Guid(743072a41cb0e4f4f89ad780773dcb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Pink/PAUSE-PINK.png using Guid(743072a41cb0e4f4f89ad780773dcb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d596b052b97c9ced18bf4f3afdf4258') in 0.023247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/PAUSE-YELLOW.png
+  artifactKey: Guid(ac3b05fb42c5a6746aead9ad92a4576f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Yellow/PAUSE-YELLOW.png using Guid(ac3b05fb42c5a6746aead9ad92a4576f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb93e7dfa2451251b608f8a88ea294f4') in 0.024365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/PAUSE-PURPLE.png
+  artifactKey: Guid(cc03d900b2e92e14c8bbb73823cf4c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Purple/PAUSE-PURPLE.png using Guid(cc03d900b2e92e14c8bbb73823cf4c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a887004b323b744ce7b6a68ed6b49c66') in 0.024500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/PLAY-GREEN.png
+  artifactKey: Guid(ceb387c41955bf242baede503d196e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/GUI CARTOON/TEXTURE/Buttons/Green/PLAY-GREEN.png using Guid(ceb387c41955bf242baede503d196e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d81d491ba6e558d3517a768f015e10d') in 0.031369 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
