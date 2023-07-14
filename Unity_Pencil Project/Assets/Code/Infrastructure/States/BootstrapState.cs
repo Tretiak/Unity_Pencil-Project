@@ -4,6 +4,8 @@ using Code.Infrastructure.Services;
 using Code.Infrastructure.Services.PersistentProgress;
 using Code.Infrastructure.Services.Randomizer;
 using Code.StaticData;
+using Code.UI.Services.Factory;
+using Code.UI.Services.Windows;
 
 namespace Code.Infrastructure.States
 {
@@ -38,12 +40,19 @@ namespace Code.Infrastructure.States
             _services.RegisterSingle<IPersistentProgressService>(new PersistentProgressService());
             _services.RegisterSingle<IAssets>(new Assets());
             _services.RegisterSingle<IPersistentProgressService>(new PersistentProgressService());
+            _services.RegisterSingle<IUIFactory>(new UIFactory(
+                _services.Single<IAssets>(), 
+                _services.Single<IStaticDataService>()));
+            _services.RegisterSingle<IWindowService>(new WindowService(_services.Single<IUIFactory>()));
             _services.RegisterSingle<IGameFactory>(new GameFactory(
                 _services.Single<IAssets>(),
-                _services.Single<IStaticDataService>(), 
+                _services.Single<IStaticDataService>(),
                 _services.Single<IRandomService>(),
-                _services.Single<IPersistentProgressService>()));
-            _services.RegisterSingle<ISaveLoadService>(new SaveLoadService(_services.Single<IPersistentProgressService>(), _services.Single<IGameFactory>()));
+                _services.Single<IPersistentProgressService>(),
+                _services.Single<IWindowService>()));
+            _services.RegisterSingle<ISaveLoadService>(new SaveLoadService(
+                _services.Single<IPersistentProgressService>(), 
+                _services.Single<IGameFactory>()));
         }
 
         private void RegisterStaticData()

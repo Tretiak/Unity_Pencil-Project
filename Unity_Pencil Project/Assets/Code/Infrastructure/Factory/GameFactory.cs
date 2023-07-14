@@ -7,6 +7,8 @@ using Code.Infrastructure.States;
 using Code.StaticData;
 using Code.StaticData.ScriptableObjects.EnemyStaticData;
 using Code.UI;
+using Code.UI.Elements;
+using Code.UI.Services.Windows;
 using UnityEngine;
 using UnityEngine.AI;
 using Object = UnityEngine.Object;
@@ -23,15 +25,18 @@ namespace Code.Infrastructure.Factory
         private readonly IStaticDataService _staticData;
         private readonly IRandomService _randomService;
         private readonly IPersistentProgressService _persistentProgressService;
+        private readonly IWindowService _windowService;
 
         private GameObject CharacterGameObject { get; set; }
 
-        public GameFactory(IAssets assets, IStaticDataService staticData, IRandomService randomService, IPersistentProgressService persistentProgressService)
+        public GameFactory(IAssets assets, IStaticDataService staticData, IRandomService randomService, IPersistentProgressService persistentProgressService, IWindowService windowService)
         {
             _assets = assets;
             _staticData = staticData;
             _randomService = randomService;
             _persistentProgressService = persistentProgressService;
+            _windowService = windowService;
+
         }
 
         public GameObject CreateHud()
@@ -39,6 +44,12 @@ namespace Code.Infrastructure.Factory
             string path = AssetPath.HudPath;
             GameObject hud = InstantiateRegistered(path);
             hud.GetComponentInChildren<ScoreCounter>().Construct(_persistentProgressService.Progress.WorldData);
+
+            foreach (OpenWindowButton windowButton in hud.GetComponentsInChildren<OpenWindowButton>())
+            {
+                windowButton.Construct(_windowService);
+            }
+            
             return hud;
         }
 

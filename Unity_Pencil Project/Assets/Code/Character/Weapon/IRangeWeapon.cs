@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Code.StaticData.ScriptableObjects;
+using UnityEngine;
 
 namespace Code.Character
 {

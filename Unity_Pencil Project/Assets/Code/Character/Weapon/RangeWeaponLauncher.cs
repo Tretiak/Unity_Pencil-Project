@@ -1,5 +1,6 @@
 ﻿using System;
 using Code.Enemy;
+using Code.StaticData.ScriptableObjects;
 using UnityEngine;
 using Random = UnityEngine.Random;
 

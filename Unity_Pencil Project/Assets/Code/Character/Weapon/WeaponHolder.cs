@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Code.Enemy;
+using Code.StaticData.ScriptableObjects;
 using Unity.VisualScripting;
 using UnityEngine;
 

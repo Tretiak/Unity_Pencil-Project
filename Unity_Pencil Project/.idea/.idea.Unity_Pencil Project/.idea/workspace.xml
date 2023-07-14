@@ -20,29 +20,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27e607e6-adde-41b6-89b3-299bddaecc96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/DictionaryData_Base.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/DictionaryData_Base.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/LootPieceData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/LootPieceData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/LootPieceDataDictionary.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Data/LootPieceDataDictionary.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/ScoreCounter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/ScoreCounter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/LevelStaticData.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/LevelStaticData/EnemySpawnerStaticData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/LevelStaticData/EnemySpawnerStaticData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/LevelStaticData/LevelStaticData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/LevelStaticData/LevelStaticData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/WindowsStaticData.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/WindowsStaticData/WindowConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/WindowsStaticData/WindowConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/WindowsStaticData/WindowStaticData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/WindowsStaticData/WindowStaticData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Elements.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Elements/OpenWindowButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Elements/OpenWindowButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Services.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Services/Factory.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Services/Factory/IUIFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Services/Factory/IUIFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Services/Factory/UIFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Services/Factory/UIFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Services/Windows.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Services/Windows/IWindowService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Services/Windows/IWindowService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Services/Windows/WindowId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Services/Windows/WindowId.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Services/Windows/WindowService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Services/Windows/WindowService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Windows.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Windows/ShopWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Windows/ShopWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Windows/WindowBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Windows/WindowBase.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Pencil Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Pencil Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Pencil Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Pencil Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Data/LootData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Data/LootData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Data/WorldData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Data/WorldData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Enemy/LootPiece.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Enemy/LootPiece.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetsStore/KinematicCharacterController/ExampleCharacter/Scripts/CharacterMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetsStore/KinematicCharacterController/ExampleCharacter/Scripts/CharacterMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Character/Weapon/IRangeWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Character/Weapon/IRangeWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Character/Weapon/RangeWeaponLauncher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Character/Weapon/RangeWeaponLauncher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Character/Weapon/WeaponHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Character/Weapon/WeaponHolder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/HealthBarUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/UI/Elements/HealthBarUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/HealthBarUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/UI/Elements/HealthBarUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/HealthSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/HealthSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Infrastructure/AssetManagement/AssetPath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/AssetManagement/AssetPath.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Infrastructure/Factory/GameFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/Factory/GameFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Infrastructure/GameStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/GameStateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Infrastructure/Services/IStaticDataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/Services/IStaticDataService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Infrastructure/States/BootstrapState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/States/BootstrapState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Infrastructure/States/LoadLevelState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Infrastructure/States/LoadLevelState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/ElectricBallSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/ElectricBallSO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/EnemyStaticData/EnemyStaticData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/EnemyStaticData/EnemyStaticData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/RangeWeaponSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/RangeWeaponSO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/RocketSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/RocketSO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StaticData/StaticDataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/StaticData/StaticDataService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Character/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Character/HUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Enemy/Loot/Loot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Enemy/Loot/Loot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/SaveTrigger.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/SaveTrigger.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/Shop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/Shop.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene_01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene_01.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker3-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,26 +105,46 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Code/Enemy/Loot.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/Factory/IGameFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/AssetManagement/AssetPath.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Data/Loot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/EnemyStaticData/EnemyStaticData.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/States/IRandomService.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/Services/Randomizer/RandomService.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/Services/Randomizer/IRandomService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/States/BootstrapState.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Enemy/LootSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Data/LootPieceData.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Data/LootData.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Enemy/LootPiece.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Data/WorldData.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/UI/ScoreCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UI/Window.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UI/WindowBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UI/ShopWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/AssetsStore/KinematicCharacterController/ExampleCharacter/Scripts/CharacterMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UI/Services/WindowService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UI/Services/Windows/IWindowService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UI/Services/Windows/WindowService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UI/Services/Factory/IUIFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/Services/IStaticDataService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/StaticData/WindowConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/StaticData/WindowStaticData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/LevelStaticData/EnemySpawnerStaticData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/WindowsStaticData/WindowStaticData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/EnemyStaticData/EnemyStaticData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/StaticData/ScriptableObjects/LevelStaticData/LevelStaticData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/StaticData/StaticDataService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/AssetManagement/AssetPath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UI/Services/Factory/UIFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UI/Elements/OpenWindowButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/Factory/GameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/States/BootstrapState.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/States/LoadLevelState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Infrastructure/GameStateMachine.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2P14rJIDHkoUIiA6v1YHpkgpBeI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -122,6 +187,8 @@
       <workItem from="1682617423236" duration="67000" />
       <workItem from="1682617521322" duration="11231000" />
       <workItem from="1682778726444" duration="5933000" />
+      <workItem from="1689352395720" duration="555000" />
+      <workItem from="1689352985255" duration="7623000" />
     </task>
     <servers />
   </component>

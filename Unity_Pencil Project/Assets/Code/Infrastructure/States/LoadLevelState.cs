@@ -6,6 +6,7 @@ using Code.Infrastructure.Factory;
 using Code.Infrastructure.Services.PersistentProgress;
 using Code.Logic;
 using Code.UI;
+using Code.UI.Services.Factory;
 using KinematicCharacterController.Examples;
 using UnityEngine;
 using CharacterController = KinematicCharacterController.Examples.CharacterController;
@@ -18,16 +19,18 @@ namespace Code.Infrastructure.States
         private readonly GameStateMachine _stateMachine;
         private readonly SceneLoader _sceneLoader;
         private readonly LoadingCurtain _loadingCurtain;
-        private IGameFactory _gameFactory;
+        private readonly IGameFactory _gameFactory;
         private readonly IPersistentProgressService _progressService;
+        private readonly IUIFactory _uiFactory;
 
-        public LoadLevelState(GameStateMachine stateMachine, SceneLoader sceneLoader, LoadingCurtain  loadingCurtain, IGameFactory gameFactory, IPersistentProgressService progressService)
+        public LoadLevelState(GameStateMachine stateMachine, SceneLoader sceneLoader, LoadingCurtain  loadingCurtain, IGameFactory gameFactory, IPersistentProgressService progressService, IUIFactory uiFactory)
         {
             _stateMachine = stateMachine;
             _sceneLoader = sceneLoader;
             _loadingCurtain = loadingCurtain;
             _gameFactory = gameFactory;
             _progressService = progressService;
+            _uiFactory = uiFactory;
         }
 
         public void Enter(string sceneName)
@@ -40,10 +43,16 @@ namespace Code.Infrastructure.States
 
         private void OnLoaded()
         {
+            InitUIRoot();
             InitGameWorld();
             InformProgressReaders();
 
             _stateMachine.Enter<GameLoopState>();
+        }
+
+        private void InitUIRoot()
+        {
+            _uiFactory.CreateUIRoot();
         }
 
         private void InformProgressReaders()

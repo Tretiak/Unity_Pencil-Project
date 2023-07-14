@@ -5,6 +5,7 @@ using Code.Infrastructure.Services;
 using Code.Infrastructure.Services.PersistentProgress;
 using Code.Infrastructure.States;
 using Code.UI;
+using Code.UI.Services.Factory;
 
 namespace Code.Infrastructure
 {
@@ -17,14 +18,17 @@ namespace Code.Infrastructure
         {
             _states = new Dictionary<Type, IExitableState>()
             {
-
                 [typeof(BootstrapState)] = new BootstrapState(this, sceneLoader, services),
-                [typeof(LoadLevelState)] = new LoadLevelState(this, sceneLoader, loadingCurtain, services.Single<IGameFactory>(), services.Single<IPersistentProgressService>()),
+                [typeof(LoadLevelState)] = new LoadLevelState(this,
+                    sceneLoader,
+                    loadingCurtain, 
+                    services.Single<IGameFactory>(), 
+                    services.Single<IPersistentProgressService>(),
+                    services.Single<IUIFactory>()),
                 [typeof(LoadProgressState)]  = new LoadProgressState(this,
                     services.Single<IPersistentProgressService>(), 
                     services.Single<ISaveLoadService>()),
                 [typeof(GameLoopState)] = new GameLoopState(this),
-                
             };
 
         }

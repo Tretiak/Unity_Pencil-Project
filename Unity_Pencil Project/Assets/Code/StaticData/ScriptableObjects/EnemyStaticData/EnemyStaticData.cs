@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Code.StaticData.ScriptableObjects.EnemyStaticData
 {
-    [CreateAssetMenu(fileName = "EnemyStaticData", menuName = "Scriptable objects/Enemy")]
+    [CreateAssetMenu(fileName = "EnemyStaticData", menuName = "StaticData/Enemy")]
     public class EnemyStaticData : ScriptableObject
     {
         public EnemyTypeId EnemyTypeId;

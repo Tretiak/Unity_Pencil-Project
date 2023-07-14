@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Code.Character
+namespace Code.StaticData.ScriptableObjects
 {
     [CreateAssetMenu(fileName = "Rocket", menuName = "Scriptable objects/RangeWeapon/Rocket")]
     public class RocketSO : RangeWeaponSO
